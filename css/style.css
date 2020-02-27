@@ -1,0 +1,76 @@
+html {
+    /* ルートのフォントサイズを10pxに設定 */
+    font-size: 62.5%;
+}
+
+body {
+    /* ルートのフォントサイズを1.6em(16pxと同等のサイズ)に設定 */
+    font-size: 1.6em;
+}
+
+div h2 {
+    /* 68px */
+    font-size: 6.8rem;
+}
+div a {
+    /* 38px */
+    font-size: 3.8rem;
+}
+button {
+    background-color: red;
+    color: white;
+}
+
+.top {
+
+    background-color: rgb(4, 153, 138);
+    display:flex;
+    color: whitesmoke;
+}
+
+.home {
+    /* background-color: rgb(4, 153, 138); */
+    background-color: turquoise;
+    text-align: center;
+}
+.home h1, h4 {
+    color: rgb(4, 153, 138);
+}
+
+.about {
+    text-align: center;
+    background-color: rgb(4, 153, 138);
+}
+.about-QuestionTitle_text {
+    color: whitesmoke;
+}
+.stay {
+    text-align: center;
+    background-color: aqua;
+}
+.stay-title_write {
+    color: whitesmoke;
+}
+.stay-title_news {
+    color: white;
+}
+.Coworking {
+    text-align: center;
+    background-color: aqua;
+}
+.Coworking-title_contents {
+    color: rgb(4, 153, 138);
+}
+.Preparation {
+    text-align: center;
+    background-color: turquoise;
+
+}
+.place {
+    background-color: aqua;
+
+}
+footer {
+    background-color: turquoise;
+
+}
