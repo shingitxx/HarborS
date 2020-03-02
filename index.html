@@ -9,107 +9,193 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/reboot.css">
 
-    <title>Hello, world!</title>
+    <title>HarborS</title>
 </head>
 
 <body>
     <header>
-        <div class="top">
-            <div class="container">
-                <p>HarborS for Beginner</p>
-                <button class="top-button">HarborS for Beginnerに<br>
-                    申し込む</button>
-            </div>
+        <div class="container-fluid top">
+            <p class="font-write top-title">HarborS for Beginner</p>
+            <a href="#" class="btn btn-lg active font-write" role="button">
+                HarborS for Beginnerに<br>
+                申し込む
+            </a>
         </div>
     </header>
+    <!-- <header>
+        <div class="container-fluid top">
+            <div class="row">
+                <div class="col-8 col-lg-8 col-md-8 col-sm-8 top-title">
+                    <p class="font-write">HarborS for Beginner</p>
+                </div>
 
-    <!-- container home -->
-    <div class="home">
-        <div class="container">
-            <div class="home-title">
-                <h1>HarborS for Beginner</h1>
-                <h4>駆け出しエンジニア向けコワーキングスペース</h4>
-            </div>
-            <div class="home-text">
-                <h3>現役エンジニアによる</h3>
-                <ul>
-                    <li>技術相談</li>
-                    <li>キャリア相談</li>
-                </ul>
-                <button>話を聞いてみたい</button>
-            </div>
-        </div>
-    </div>
-    <!-- container home -->
-
-
-    <!-- container about -->
-    <div class="about">
-        <div class="container">
-            <div class="about-QuestionTitle">
-                <h1 class="about-QuestionTitle_text">質問が出来ずに困ったことありませんか？</h1>
-            </div>
-
-            <div class="about-QuestionText">
-                <ul>
-                    <li>このエラーの意味が分からない</li>
-                    <li>環境構築が分からない</li>
-                    <li>ネットワークの仕組みを教えてほしい</li>
-                </ul>
-                <p>など</p>
-            </div>
-        </div>
-    </div>
-    <!-- container about -->
-
-    <!-- container stay -->
-    <div class="stay">
-        <div class="container">
-            <div class="stay-title">
-                <p>HarborS for Beginner</p>
-                <h1 class="stay-title_news">駆け出しエンジニアが<br>
-                    技術を学べる場を提供します</h1>
-                <ul class="stay-title_write">
-                    <li>現役エンジニアが技術相談をのります</li>
-                    <li>コワーキングスペースが利用できます</li>
-                </ul>
-                <button>話を聞いてみたい</button>
-            </div>
-        </div>
-    </div>
-    <!-- container stay -->
-
-
-
-    <!-- container Coworking -->
-    <div class="Coworking">
-        <div class="container">
-            <div class="Coworking-title">
-                <h1 class="Coworking-title_contents">コワーキングスペース</h1>
-                <div class="Coworking-title_list">
-                    <p>エンジニア向け<br>
-                        コワーキングスペース</p>
-                    <p>HarborS 表参道</p>
-                    <p>表参道駅A4出口から徒歩3分</p>
+                <div class="col-4 col-lg-4 col-md-4 col-sm-4">
+                    <a href="#" class="btn btn-lg active font-write" role="button">
+                        HarborS for Beginnerに<br>
+                        申し込む
+                    </a>
                 </div>
             </div>
-            <div class="Coworking-title">
-                <h1 class="Coworking-title_contents">講師のスキルマップ</h1>
-                <div class="Coworking-title_list">
-                    <p>プログラミングスキル</p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Ruby</li>
-                        <li>SQL</li>
-                    </ul>
-                    <p>インフラ</p>
+        </div>
+    </header> -->
+
+    <!-- container home -->
+    <div class="container-fluid home">
+        <div class="home-title">
+            <h1 class="font-blue">HarborS for Beginner</h1>
+            <h4 class="font-blue">駆け出しエンジニア向けコワーキングスペース</h4>
+        </div>
+        <div class="home-text">
+            <h3>現役エンジニアによる</h3>
+            <ul>
+                <li>技術相談</li>
+                <li>キャリア相談</li>
+            </ul>
+            <a href="#" class="btn btn-lg active font-write" role="button">
+                HarborS for Beginnerに<br>
+                申し込む
+            </a>
+        </div>
+    </div>
+    <!-- container home -->
+
+
+    <!-- container about -->
+    <!-- <div class="about">
+        <div class="container-fluid">
+            <div class="row about-QuestionTitle">
+                    <h1 class="font-write">質問が出来ずに困ったことありませんか？</h1>
+                    <div class="about-QuestionText">
+                        <ul>
+                            <li>このエラーの意味が分からない</li>
+                            <li>環境構築が分からない</li>
+                            <li>ネットワークの仕組みを教えてほしい</li>
+                        </ul>
+                        <p>など</p>
+                    </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-fluid about">
+        <div class="about-Question">
+            <h1 class="font-write mb-0">
+                質問が出来ずに困ったことありませんか？
+            </h1>
+        </div>
+        <div class="about-LinedUp">
+            <ul>
+                <li>このエラーの意味が分からない</li>
+                <li>環境構築が分からない</li>
+                <li>ネットワークの仕組みを教えてほしい</li>
+            </ul>
+            <p class="mb-0">など</p>
+        </div>
+    </div>
+    <!-- container about -->
+
+    <!-- container stay -->
+    <div class="container-fluid stay">
+        <div class="stay-title">
+            <p class="font-write">HarborS for Beginner</p>
+            <h1 class="font-write">駆け出しエンジニアが<br>
+                技術を学べる場を提供します</h1>
+            <ul class="stay-title_write font-write">
+                <li>現役エンジニアが技術相談をのります</li>
+                <li>コワーキングスペースが利用できます</li>
+            </ul>
+            <a href="#" class="btn btn-lg active font-write" role="button">
+                HarborS for Beginnerに<br>
+                申し込む
+            </a>
+        </div>
+    </div>
+    <!-- container stay -->
+
+    <!-- <div class="container-fluid space">
+        <div class="space-title">
+            <h1 class="font-blue">コワーキングスペース</h1>
+            <div class="space-title_list">
+                <p>エンジニア向け<br>
+                    コワーキングスペース</p>
+                <p>HarborS 表参道</p>
+                <p>表参道駅A4出口から徒歩3分</p>
+            </div>
+        </div>
+
+        <div class="space-title">
+            <h1 class="font-blue">講師のスキルマップ</h1>
+
+            <div class="space-title_list">
+                <p>プログラミングスキル</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Ruby</li>
+                    <li>SQL</li>
+                </ul>
+                <p>インフラ</p>
+                <ul>
+                    <li>ネットワーク</li>
+                    <li>Web/APサーバ</li>
+                    <li>データベース</li>
+                    <li>Docker</li>
+                    <li>AWS</li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#" class="btn btn-lg active font-write" role="button">
+            HarborS for Beginnerに<br>
+            申し込む
+        </a>
+    </div> -->
+
+    <div class="container-fluid space">
+        <h1 class="font-blue">コワーキングスペース</h1>
+        <div class="row space-title">
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6 space-title_list">
+                <img src="img/harbors.png" alt="harbors" class="w-25">
+                <p>エンジニア向け<br>
+                    コワーキングスペース</p>
+                <p>HarborS 表参道</p>
+                <p>表参道駅A4出口から徒歩3分</p>
+            </div>
+
+            <div class="space-photo">
+                <div class="col-6 col-6 col-lg-6 col-md-6 col-sm-6 space-photo_cafe">
+                    <img src="img/cafe.jpg" alt="cafe">
+                </div>
+            </div>
+        </div>
+
+        <h1 class="font-blue">講師のスキルマップ</h1>
+        <div class="row space-title-2">
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6  space-title_list-2">
+                <h3>プログラミングスキル</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Ruby</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+                <div class="col-6 col-6 col-lg-6 col-md-6 col-sm-6">
+                    <h3>インフラ</h3>
                     <ul>
                         <li>ネットワーク</li>
                         <li>Web/APサーバ</li>
@@ -118,22 +204,92 @@
                         <li>AWS</li>
                     </ul>
                 </div>
-            </div>
-            <button>話を聞いてみたい</button>
         </div>
+
+        <a href="#" class="btn btn-lg active font-write" role="button">
+            HarborS for Beginnerに<br>
+            申し込む
+        </a>
     </div>
-    <!-- container Coworking -->
+    <!-- container space -->
 
     <!-- container Preparation -->
-    <div class="Preparation">
-        <div class="container">
-            <div class="Preparation-title">
-                <h1>利用開始までの流れ</h1>
+    <!-- <div class="container-fluid Preparation">
+        <div class="Preparation-start">
+            <h1 class="font-write mb-0">
+                利用開始までの流れ
+            </h1>
+        </div>
+
+        <div class="Preparation-title_list">
+            <div class="Preparation-title_list_step">
+                <p lass="font-blue">STEP1</p>
+                <p class="font-blue">問い合わせ</p>
             </div>
+            <div class="Preparation-title_list_text">
+                <p>「話を聞いてみたい」ボタンからお問い<br>
+                    合わせください<br>
+                    コワーキングスペース見学の日程調整させていただきます</p>
+            </div>
+        </div>
+
+        <div class="Preparation-title_list">
+            <div class="Preparation-title_list_step">
+                <p class="font-blue">STEP2</p>
+                <p class="font-blue">見学に行く</p>
+            </div>
+            <div class="Preparation-title_list_text">
+                <p>コワーキングスペース見学や本サービス<br>
+                    の詳細なご説明をさせていただきます<br>
+                    メンターとお話しいただき、ご自身の<br>
+                    勉強スタイルにあっているかご確認くだ<br>
+                    さい</p>
+            </div>
+        </div>
+
+        <div class="Preparation-title_list">
+            <div class="Preparation-title_list_step">
+                <p class="font-blue">STEP3</p>
+                <p class="font-blue">申し込み</p>
+            </div>
+            <div class="Preparation-title_list_text">
+                <p>見学した内容を踏まえて、ご利用になる<br>
+                    場合は申し込みください</p>
+            </div>
+        </div>
+
+        <div class="Preparation-title_list">
+            <div class="Preparation-title_list_step">
+                <p class="font-blue">STEP4</p>
+                <p class="font-blue">利用開始</p>
+            </div>
+            
+            <div class="Preparation-title_list_text">
+                <p>平日18時～24時の間、自由にコワーキン<br>
+                    グスペースをご利用できます<br>
+                    いつでも気軽にご相談ができます<br>
+                    メンターが居る時間であればコワーキン<br>
+                    グスペースでご自由に質問ください<br>
+                    それ以外にオンラインでも質問できます</p>
+            </div>
+        </div>
+        <a href="#" class="btn btn-lg active font-write" role="button">
+            HarborS for Beginnerに<br>
+            申し込む
+        </a>
+    </div> -->
+
+    <div class="container-fluid Preparation">
+        <div class="Preparation-start">
+            <h1 class="font-write mb-0">
+                利用開始までの流れ
+            </h1>
+        </div>
+        <!-- <div class="Preparation-main"> -->
             <div class="Preparation-title_list">
                 <div class="Preparation-title_list_step">
-                    <p>STEP1</p>
-                    <p>問い合わせ</p>
+                    <p class="font-blue">STEP1</p>
+                    <p class="font-blue">問い合わせ</p>
                 </div>
                 <div class="Preparation-title_list_text">
                     <p>「話を聞いてみたい」ボタンからお問い<br>
@@ -141,10 +297,11 @@
                         コワーキングスペース見学の日程調整させていただきます</p>
                 </div>
             </div>
+    
             <div class="Preparation-title_list">
                 <div class="Preparation-title_list_step">
-                    <p>STEP2</p>
-                    <p>見学に行く</p>
+                    <p class="font-blue">STEP2</p>
+                    <p class="font-blue">見学に行く</p>
                 </div>
                 <div class="Preparation-title_list_text">
                     <p>コワーキングスペース見学や本サービス<br>
@@ -154,40 +311,48 @@
                         さい</p>
                 </div>
             </div>
+    
             <div class="Preparation-title_list">
                 <div class="Preparation-title_list_step">
-                    <p>STEP3</p>
-                    <p>申し込み</p>
+                    <p class="font-blue">STEP3</p>
+                    <p class="font-blue">申し込み</p>
                 </div>
                 <div class="Preparation-title_list_text">
                     <p>見学した内容を踏まえて、ご利用になる<br>
                         場合は申し込みください</p>
                 </div>
             </div>
+    
             <div class="Preparation-title_list">
                 <div class="Preparation-title_list_step">
-                    <p>STEP4</p>
-                    <p>利用開始</p>
+                    <p class="font-blue">STEP4</p>
+                    <p class="font-blue">利用開始</p>
                 </div>
+    
                 <div class="Preparation-title_list_text">
                     <p>平日18時～24時の間、自由にコワーキン<br>
-                        　　グスペースをご利用できます<br>
+                        グスペースをご利用できます<br>
                         いつでも気軽にご相談ができます<br>
                         メンターが居る時間であればコワーキン<br>
                         グスペースでご自由に質問ください<br>
                         それ以外にオンラインでも質問できます</p>
                 </div>
             </div>
-            <button>話を聞いてみたい</button>
-        </div>
+            <a href="#" class="btn btn-lg active font-write" role="button">
+                HarborS for Beginnerに<br>
+                申し込む
+            </a>
+
+        <!-- </div> -->
     </div>
     <!-- container Preparation -->
 
     <!-- container place -->
-    <div class="place">
-        <div class="container">
-            <div class="row place-access">
-                <div class="col-lg-6 col-md-6 col-sm-6">
+    <div class="container-fluid place">
+        <div class="row place-access">
+
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                <div class="place-access_log">
                     <p>住所</p>
                     <p>東京都港区青山3丁目15-9<br>
                         MINOWA表参道3F</p>
@@ -196,20 +361,51 @@
                         「表参道」下車 A4出口 徒歩3分</p>
                     <p>電話番号</p>
                     <p>03-6885-6140</p>
-                    <button>HarborS for Beginnerに<br>
-                        申し込む</button>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    imgが入る予定
+                    <a href="#" class="btn btn-lg active font-write" role="button">
+                        HarborS for Beginnerに<br>
+                        申し込む
+                    </a>
                 </div>
             </div>
+
+            <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                <div class="place-access_photo">
+                    <img src="img/map.png" alt="map" class="w-75">
+                </div>
+            </div>
+
         </div>
     </div>
+
+    <!-- <div class="container-fluid place">
+            <div class="place-access">
+                <div class="place-access_logo">
+                    <p>住所</p>
+                    <p>東京都港区青山3丁目15-9<br>
+                        MINOWA表参道3F</p>
+                    <p>アクセス</p>
+                    <p>東京都メトロ銀座線、半蔵門線<br>
+                        「表参道」下車 A4出口 徒歩3分</p>
+                    <p>電話番号</p>
+                    <p>03-6885-6140</p>
+                    <a href="#" class="btn btn-lg active font-write" role="button">
+                        HarborS for Beginnerに<br>
+                        申し込む
+                    </a>
+                </div>
+
+                <div class="place-access_photo">
+                <div class="place-access_photo width-25 height-25"> -->
+    <!-- <img src="img/map.png" alt="map"> -->
+    <!-- img -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
     <!-- container place -->
 
     <!-- footer -->
     <footer>
-        <p>2019 Anti-Pattern inc.</p>
+        <p class="mb-0">2019 Anti-Pattern inc.</p>
     </footer>
     <!-- footer -->
 
