@@ -25,6 +25,10 @@ color: #ffffff;
 .font-blue {
     color: #0FABBC;
 }
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
 /* ↑ 共通class ↑ */
 
 
@@ -32,27 +36,53 @@ color: #ffffff;
 .top {
     background-color: #0FABBC;
     display:flex;
-    /* color: whitesmoke; */
 }
 .top-title {
     font-size: 4.8rem;
+}
+
+/* .top-logo {
+    text-align: left;
+} */
+.aaaa {
+    text-align: center;
 }
 .home {
     background-color: #E4F9FF;
     text-align: center;
 }
-.container-fluid {
-    padding: 0;
-    margin: 0;
+.home-title h1 {
+    font-size: 6.0rem;
 }
+.home-title h3 {
+    font-size: 4.0rem;
+}
+.home-text h3 {
+    font-size: 4.4rem;
+}
+.home-text ul {
+    font-size: 4.0rem;
+}
+
+
 .about {
     text-align: center;
 }
 .about-Question {
     background-color: #0FABBC;
 }
+.about-Question h2 {
+    background-color: #0FABBC;
+    font-size: 4.8rem;
+}
 .about-LinedUp {
     background-color: #E4F9FF;
+}
+.about-LinedUp p {
+    font-size: 3.6rem;
+}
+.about-LinedUp ul {
+    font-size: 3.6rem;
 }
 
 
@@ -60,11 +90,26 @@ color: #ffffff;
     text-align: center;
     background-color: #0FABBC;
 }
+.stay h1 {
+    font-size: 5.5rem;
+}
+.stay ul {
+    font-size: 3.6rem;
+}
 
 
 .space {
     text-align: center;
     background-color: #E4F9FF;
+}
+.space h1 {
+    font-size: 4.8rem;
+}
+.space p {
+    font-size: 2.0rem;
+}
+.space ul {
+    font-size: 2.5rem;
 }
 .space-title {
     background-color: #ffffff;
@@ -73,28 +118,48 @@ color: #ffffff;
     background-color: #ffffff;
 
 }
+
+
 .Preparation {
     text-align: center;
     background-color: #E4F9FF;
+}
+.Preparation h1 {
+    font-size: 4.8rem;
+}
+.Preparation h2 {
+    font-size: 4.5rem;
+}
+.Preparation p {
+    font-size: 2.5rem;
 }
 .Preparation-start {
     background-color: #0FABBC;
 }
 .Preparation-title_list {
     background-color: #ffffff;
-
 }
 .place {
     background-color: #E4F9FF;
     text-align: center;
 }
-.place-access_photo img {
+.place p {
+   font-size: 2.5rem;
+}
+.place {
+    background-color: #E4F9FF;
+    text-align: center;
+}
+/* .place-access_photo img { */
     /* background-size: cover; */
     /* object-fit: fill; */
     /* width: 400px;
     height: 400px; */
-}
+/* } */
+
+
 footer {
     background-color: #0FABBC;
     text-align: center;
+    color: #E4F9FF;
 }
