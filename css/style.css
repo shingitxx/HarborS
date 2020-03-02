@@ -16,61 +16,85 @@ div a {
     /* 38px */
     font-size: 3.8rem;
 }
-button {
-    background-color: red;
-    color: white;
+.btn {
+    background-color: #FA163F;
 }
+.font-write {
+color: #ffffff;
+}
+.font-blue {
+    color: #0FABBC;
+}
+/* ↑ 共通class ↑ */
+
+
 
 .top {
-
-    background-color: rgb(4, 153, 138);
+    background-color: #0FABBC;
     display:flex;
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
-
+.top-title {
+    font-size: 4.8rem;
+}
 .home {
-    /* background-color: rgb(4, 153, 138); */
-    background-color: turquoise;
+    background-color: #E4F9FF;
     text-align: center;
 }
-.home h1, h4 {
-    color: rgb(4, 153, 138);
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }
-
 .about {
     text-align: center;
-    background-color: rgb(4, 153, 138);
 }
-.about-QuestionTitle_text {
-    color: whitesmoke;
+.about-Question {
+    background-color: #0FABBC;
 }
+.about-LinedUp {
+    background-color: #E4F9FF;
+}
+
+
 .stay {
     text-align: center;
-    background-color: aqua;
+    background-color: #0FABBC;
 }
-.stay-title_write {
-    color: whitesmoke;
-}
-.stay-title_news {
-    color: white;
-}
-.Coworking {
+
+
+.space {
     text-align: center;
-    background-color: aqua;
+    background-color: #E4F9FF;
 }
-.Coworking-title_contents {
-    color: rgb(4, 153, 138);
+.space-title {
+    background-color: #ffffff;
+}
+.space-title-2 {
+    background-color: #ffffff;
+
 }
 .Preparation {
     text-align: center;
-    background-color: turquoise;
+    background-color: #E4F9FF;
+}
+.Preparation-start {
+    background-color: #0FABBC;
+}
+.Preparation-title_list {
+    background-color: #ffffff;
 
 }
 .place {
-    background-color: aqua;
-
+    background-color: #E4F9FF;
+    text-align: center;
+}
+.place-access_photo img {
+    /* background-size: cover; */
+    /* object-fit: fill; */
+    /* width: 400px;
+    height: 400px; */
 }
 footer {
-    background-color: turquoise;
-
+    background-color: #0FABBC;
+    text-align: center;
 }
