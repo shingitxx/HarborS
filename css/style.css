@@ -1,21 +1,3 @@
-html {
-    /* ルートのフォントサイズを10pxに設定 */
-    font-size: 62.5%;
-}
-
-body {
-    /* ルートのフォントサイズを1.6em(16pxと同等のサイズ)に設定 */
-    font-size: 1.6em;
-}
-
-div h2 {
-    /* 68px */
-    font-size: 6.8rem;
-}
-div a {
-    /* 38px */
-    font-size: 3.8rem;
-}
 .btn {
     /* ボタンの色 */
     background-color: #FA163F;
@@ -32,18 +14,17 @@ color: #ffffff;
     padding: 0;
     margin: 0;
 }
+header footer {
+    width: 1200px;
+}
   /* ↑ 共通class ↑ */
 
 
+    header {
+        background-color: #0FABBC;
+    }
 
-.top {
-    background-color: #0FABBC;
-    display:flex;
-}
-.top-title {
-    font-size: 4.8rem;
-}
-/* top */
+
 
 
 .home {
@@ -54,41 +35,22 @@ color: #ffffff;
     /* li要素の・を引き寄せる */
     list-style-position: inside; 
 }
-.home-title h1 {
-font-size: 6.0rem;
-}
-.home-title h3 {
-    font-size: 4.0rem;
-}
-.home-text h3 {
-    font-size: 4.4rem;
-}
-.home-text ul {
-    font-size: 4.0rem;
-}
 /* .home */
 
 
 .about {
     text-align: center;
 }
-.about-Question {
+.about-title {
     background-color: #0FABBC;
 }
-.about-Question h2 {
+.about-title h2 {
     background-color: #0FABBC;
-    font-size: 4.8rem;
 }
 .about-LinedUp {
     background-color: #E4F9FF;
     list-style-position: inside; 
     /* li要素の・を引き寄せる */
-}
-.about-LinedUp p {
-    font-size: 3.6rem;
-}
-.about-LinedUp ul {
-    font-size: 3.6rem;
 }
 /* about */
 
@@ -96,15 +58,6 @@ font-size: 6.0rem;
 .stay {
     text-align: center;
     background-color: #0FABBC;
-}
-.stay p {
-    font-size: 4.5rem;
-}
-.stay h1 {
-    font-size: 5.5rem;
-}
-.stay ul {
-    font-size: 3.6rem;
 }
 .stay-title {
     list-style-position: inside; 
@@ -120,15 +73,6 @@ font-size: 6.0rem;
     list-style-position: inside; 
     /* li要素の・を引き寄せる */
 }
-.space h1 {
-    font-size: 4.8rem;
-}
-.space p {
-    font-size: 2.0rem;
-}
-.space ul {
-    font-size: 2.5rem;
-}
 .space-title {
     background-color: #ffffff;
 }
@@ -141,15 +85,6 @@ font-size: 6.0rem;
 .Preparation {
     text-align: center;
     background-color: #E4F9FF;
-}
-.Preparation h1 {
-    font-size: 4.8rem;
-}
-.Preparation h2 {
-    font-size: 4.5rem;
-}
-.Preparation p {
-    font-size: 2.5rem;
 }
 .Preparation-start {
     background-color: #0FABBC;
@@ -164,9 +99,6 @@ font-size: 6.0rem;
     background-color: #E4F9FF;
     text-align: center;
 }
-.place p {
-   font-size: 2.5rem;
-}
 .place {
     background-color: #E4F9FF;
     text-align: center;
@@ -180,3 +112,32 @@ footer {
     color: #E4F9FF;
 }
 /* footer */
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.container-fluid {
+    width: auto;
+}
+
+}
