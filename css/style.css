@@ -17,19 +17,22 @@ div a {
     font-size: 3.8rem;
 }
 .btn {
+    /* ボタンの色 */
     background-color: #FA163F;
 }
 .font-write {
+    /* 文字白色 */
 color: #ffffff;
 }
 .font-blue {
+    /* 文字青色 */
     color: #0FABBC;
 }
 .container-fluid {
     padding: 0;
     margin: 0;
 }
-/* ↑ 共通class ↑ */
+  /* ↑ 共通class ↑ */
 
 
 
@@ -40,19 +43,19 @@ color: #ffffff;
 .top-title {
     font-size: 4.8rem;
 }
+/* top */
 
-/* .top-logo {
-    text-align: left;
-} */
-.aaaa {
-    text-align: center;
-}
+
 .home {
     background-color: #E4F9FF;
-    text-align: center;
+    /* text-align: center; */
+}
+.home-text {
+    /* li要素の・を引き寄せる */
+    list-style-position: inside; 
 }
 .home-title h1 {
-    font-size: 6.0rem;
+font-size: 6.0rem;
 }
 .home-title h3 {
     font-size: 4.0rem;
@@ -63,6 +66,7 @@ color: #ffffff;
 .home-text ul {
     font-size: 4.0rem;
 }
+/* .home */
 
 
 .about {
@@ -77,6 +81,8 @@ color: #ffffff;
 }
 .about-LinedUp {
     background-color: #E4F9FF;
+    list-style-position: inside; 
+    /* li要素の・を引き寄せる */
 }
 .about-LinedUp p {
     font-size: 3.6rem;
@@ -84,11 +90,15 @@ color: #ffffff;
 .about-LinedUp ul {
     font-size: 3.6rem;
 }
+/* about */
 
 
 .stay {
     text-align: center;
     background-color: #0FABBC;
+}
+.stay p {
+    font-size: 4.5rem;
 }
 .stay h1 {
     font-size: 5.5rem;
@@ -96,11 +106,19 @@ color: #ffffff;
 .stay ul {
     font-size: 3.6rem;
 }
+.stay-title {
+    list-style-position: inside; 
+    /* li要素の・を引き寄せる */
+
+}
+/* stay */
 
 
 .space {
     text-align: center;
     background-color: #E4F9FF;
+    list-style-position: inside; 
+    /* li要素の・を引き寄せる */
 }
 .space h1 {
     font-size: 4.8rem;
@@ -116,8 +134,8 @@ color: #ffffff;
 }
 .space-title-2 {
     background-color: #ffffff;
-
 }
+/* .space */
 
 
 .Preparation {
@@ -139,6 +157,9 @@ color: #ffffff;
 .Preparation-title_list {
     background-color: #ffffff;
 }
+/* Preparation */
+
+
 .place {
     background-color: #E4F9FF;
     text-align: center;
@@ -150,12 +171,7 @@ color: #ffffff;
     background-color: #E4F9FF;
     text-align: center;
 }
-/* .place-access_photo img { */
-    /* background-size: cover; */
-    /* object-fit: fill; */
-    /* width: 400px;
-    height: 400px; */
-/* } */
+/* place */
 
 
 footer {
@@ -163,3 +179,4 @@ footer {
     text-align: center;
     color: #E4F9FF;
 }
+/* footer */
