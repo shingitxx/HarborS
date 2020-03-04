@@ -24,7 +24,7 @@ header footer {
         background-color: #0FABBC;
     }
 
-
+    
 
 
 .home {
@@ -40,8 +40,18 @@ header footer {
 .about {
     background-color: #0FABBC;
 }
-.about-title h2 {
-    background-color: #0FABBC;
+
+.triangle {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    width: 0;
+    height: 0;
+background-color: #eee;
+border-style: solid;
+border-width: 20px;
+border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 }
 .about-LinedUp {
     background-color: #E4F9FF;
@@ -49,6 +59,10 @@ header footer {
     /* li要素の・を引き寄せる */
 }
 /* about */
+
+.Such {
+    width: 135%;
+} 
 
 
 .stay {
@@ -61,14 +75,24 @@ header footer {
 }
 /* stay */
 
+.card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #0FABBC;
+
+}
 
 .space {
     background-color: #E4F9FF;
+        /* li要素の・を引き寄せる */
     list-style-position: inside; 
-    /* li要素の・を引き寄せる */
+    
+
 }
 .space-title {
     background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
 }
 .space-title-2 {
     background-color: #ffffff;
@@ -128,7 +152,7 @@ footer {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 .container-fluid {
-    background-color: #FA163F;
+    /* background-color: chartreuse; */
 }
 }
 
