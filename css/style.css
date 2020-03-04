@@ -29,7 +29,6 @@ header footer {
 
 .home {
     background-color: #E4F9FF;
-    /* text-align: center; */
 }
 .home-text {
     /* li要素の・を引き寄せる */
@@ -39,9 +38,6 @@ header footer {
 
 
 .about {
-    text-align: center;
-}
-.about-title {
     background-color: #0FABBC;
 }
 .about-title h2 {
@@ -56,7 +52,6 @@ header footer {
 
 
 .stay {
-    text-align: center;
     background-color: #0FABBC;
 }
 .stay-title {
@@ -68,7 +63,6 @@ header footer {
 
 
 .space {
-    text-align: center;
     background-color: #E4F9FF;
     list-style-position: inside; 
     /* li要素の・を引き寄せる */
@@ -97,18 +91,15 @@ header footer {
 
 .place {
     background-color: #E4F9FF;
-    text-align: center;
 }
 .place {
     background-color: #E4F9FF;
-    text-align: center;
 }
 /* place */
 
 
 footer {
     background-color: #0FABBC;
-    text-align: center;
     color: #E4F9FF;
 }
 /* footer */
@@ -137,7 +128,7 @@ footer {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 .container-fluid {
-    width: auto;
+    background-color: #FA163F;
+}
 }
 
-}
