@@ -17,6 +17,12 @@ color: #ffffff;
 header footer {
     width: 1200px;
 }
+.bg {
+    background-color: #E4F9FF;
+}
+.bg-blue {
+    background-color: #0FABBC;
+}
   /* ↑ 共通class ↑ */
 
 
@@ -73,7 +79,7 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 /* about */
 
 .Such {
-    width: 135%;
+    /* width: 135%; */
 } 
 
 
@@ -135,6 +141,15 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 }
 /* Preparation */
 
+.access {
+    background-color: #E4F9FF;
+}
+.access-title {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
 
 .place {
     background-color: #E4F9FF;
@@ -150,6 +165,16 @@ footer {
     color: #E4F9FF;
 }
 /* footer */
+
+.foot {
+    /* width: 80%;
+    margin: 0 auto; */
+    background-color: #E4F9FF;
+}
+.aaaa {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
