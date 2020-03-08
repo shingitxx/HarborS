@@ -1,14 +1,11 @@
 .btn {
-    /* ボタンの色 */
-    background-color: #FA163F;
+    background-color: #FA163F; /* ボタンの色 */
 }
 .font-write {
-    /* 文字白色 */
-color: #ffffff;
+color: #ffffff; /* 文字白色 */
 }
 .font-blue {
-    /* 文字青色 */
-    color: #0FABBC;
+    color: #0FABBC; /* 文字青色 */
 }
 .container-fluid {
     padding: 0;
@@ -29,9 +26,7 @@ header footer {
     header {
         background-color: #0FABBC;
     }
-    .btn-top {
-        padding-left: 53%;
-    }
+
     
 
 /* .home */
@@ -39,8 +34,13 @@ header footer {
     background-color: #E4F9FF;
 }
 .home-text {
-    /* li要素の・を引き寄せる */
-    list-style-position: inside; 
+    list-style-position: inside; /* li要素の・を引き寄せる */
+}
+.aaaaa {
+    margin:0 0 0 auto;
+}
+.home-text_list {
+    
 }
 /* .home */
 
@@ -48,27 +48,51 @@ header footer {
 .about {
     background-color: #0FABBC;
 }
+.color-rd {
+    color: #FA163F;
+}
 
-.triangle {
+/* .triangle {
 position: absolute;
 right: 50%;
 left: 50%;
-bottom: 33.3%;
+bottom: 41.5%;
 width: 0;
 height: 0;
 background-color: #eee;
 border-style: solid;
-border-width: 40px;
+border-width: 30px;
 border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
-}
-.aaa ul {
-    /* width: 352px; */
+} */
 
-}
-.aaa li {
-    float: left;
-    width: 50%;
-}
+
+.balloon1 {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #0FABBC;
+  }
+  
+  .balloon1:before {
+    content: "";
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    margin-left: -35px;
+    border: 55px solid transparent;
+    border-top: 35px solid #0FABBC;
+  }
+  
+  .balloon1 p {
+    margin: 0;
+    padding: 0;
+  }
+
 
 .triangle-2 {
     position: absolute;
@@ -84,21 +108,20 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     }
 .about-LinedUp {
     background-color: #E4F9FF;
-    list-style-position: inside; 
+    list-style-position: inside; /* li要素の・を引き寄せる */
     margin: 0 calc(50% - 50vw);
-    /* li要素の・を引き寄せる */
 }
 /* about */
-
+.access {
+    /* margin: 0 calc(50% - 50vw); */
+}
 
 
 .stay {
     background-color: #0FABBC;
 }
 .stay-title {
-    list-style-position: inside; 
-    /* li要素の・を引き寄せる */
-
+    list-style-position: inside;     /* li要素の・を引き寄せる */
 }
 /* stay */
 
@@ -111,10 +134,9 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 
 .space {
     background-color: #E4F9FF;
-        /* li要素の・を引き寄せる */
-    list-style-position: inside; 
-    margin: 0 calc(50% - 50vw);
-    /* 親要素を無視して子要素がはみ出る（bgが表示できるようになる） */
+    list-style-position: inside;  /* li要素の・を引き寄せる */
+    margin: 0 calc(50% - 50vw);     /* 親要素を無視して子要素がはみ出る（bgが表示できるようになる） */
+
 }
 .space-font {
     width: 80%;
