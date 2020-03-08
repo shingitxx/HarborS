@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <title>HarborS</title>
 </head>
 
@@ -18,16 +19,21 @@
 
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light pb-3 pt-3">
+        <nav class="navbar navbar-expand-lg navbar-light pb-2 pt-2">
             <!-- <a class="navbar-brand" href="#">HarborS for Beginnerに<br>
                 申し込むの画像を入れる</a> -->
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" class="">
             </a>
-            <div class="collapse navbar-collapse btn-top">
-                <form class="form-inline my-2 my-lg-0">
-                    <button class="btn my-2 my-sm-0 pl-5 pr-5 font-write" type="submit">HarborS for Beginnerに<br>
-                        申し込む</button>
+            <div class="collapse navbar-collapse">
+                <form class="form-inline my-2 my-lg-0 aaaaa">
+                    <!-- <button class="btn my-2 my-sm-0 pl-5 pr-5 font-write" type="submit">
+                        にHarborS for Beginner<br>
+                        申し込む</button> -->
+                    <button class="btn my-2 my-sm-0 pl-5 pr-5 font-write" type="submit">
+                        <p class="h5">HarborS for Beginnerに</p>
+                        <p class="h3 font-weight-bold">申し込む</p>
+                    </button>
                 </form>
             </div>
         </nav>
@@ -48,12 +54,17 @@
 
                         <div class="home-text">
                             <h2 class="display-5 font-weight-bold">現役エンジニアによる</h2>
-                            <ul class="font-weight-bold">
-                                <li>技術相談</li>
-                                <li>キャリア相談</li>
-                            </ul>
+                            <h3 class="">
+                                <!-- li要素のサイズ変更のため-->
+                                <!-- <ul class="font-weight-bold"> -->
+                                <ul>
+                                    <li>技術相談</li>
+                                    <li>キャリア相談</li>
+                                </ul>
+                            </h3>
                             <a style="font-size:35px;" href="#"
-                                class=" btn btn-lg active font-write mb-5 font-weight-bold" role="button">話しを聞いてみたい</a>
+                                class="btn btn-lg active font-write mb-5 pr-5 ml-3 font-weight-bold"
+                                role="button">話しを聞いてみたい</a>
                         </div>
                     </div>
                 </div>
@@ -63,10 +74,9 @@
     <!-- home -->
 
     <!-- about -->
-    <div class="about">
+    <!-- <div class="about">
         <div class="container">
             <div class="d-flex flex-column text-center">
-                <!-- d-flex 指定 column縦並べ-->
                 <div class="row">
                     <div class="col-12 mx-auto">
                         <h1 class="font-write font-weight-bold mb-0 pt-3 pb-3">
@@ -79,7 +89,28 @@
                                 <li>環境構築が分からない</li>
                                 <li>ネットワークの仕組みを教えてほしい</li>
                             </ul>
-                            <p class="Such mb-0 about-LinedUp">など</p>
+                            <p class="mb-0 about-LinedUp">など</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="about">
+        <div class="container">
+            <div class="d-flex flex-column text-center">
+                <!-- d-flex 指定 column縦並べ-->
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <div class="balloon1">
+                            <h1 class="font-write font-weight-bold mb-0 pt-3 pb-3">
+                                質問が出来ずに困った事はありませんか？</h1>
+                        </div>
+                        <div class="about-LinedUp pt-5 pb-5">
+                            <p class="h2"><i class="fas fa-check fa-1x color-rd"></i>このエラーの意味が分からない</p>
+                            <p class="h2"><i class="fas fa-check fa-1x color-rd"></i>環境構築が分からない</p>
+                            <p class="h2"><i class="fas fa-check fa-1x color-rd"></i>ネットワークの仕組みを教えて欲しい</p>
                         </div>
                     </div>
                 </div>
@@ -87,6 +118,8 @@
         </div>
     </div>
     <!-- about -->
+
+
 
 
     <!-- stay -->
@@ -187,10 +220,14 @@
                 <!-- d-flex 指定 column縦並べ-->
                 <div class="row">
                     <div class="col-12 mx-auto">
-                        <h1 class="font-write font-weight-bold mb-0 pt-3 pb-3">
+                        <!-- <h1 class="font-write font-weight-bold mb-0 pt-3 pb-3">
                             利用開始までの流れ
-                        </h1>
-                        <div class="triangle-2"></div>
+                        </h1> -->
+                        <div class="balloon1">
+                            <h1 class="font-write font-weight-bold mb-0 pt-3 pb-3">
+                                質問が出来ずに困った事はありませんか？</h1>
+                        </div>
+                        <!-- <div class="triangle-2"></div> -->
                     </div>
                 </div>
             </div>
@@ -308,8 +345,8 @@
 
         </div>
     </div> -->
-    <div class="container-fluid ">
-        <div class="foot">
+    <div class="foot">
+    <div class="container">
             <div class="foot-inner font-weight-bold pt-5 pb-3">
                 <div class="aaaa d-flex flex-row pb-3 pt-3 ">
                     <div class="text-left w-75">
