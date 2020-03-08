@@ -29,10 +29,12 @@ header footer {
     header {
         background-color: #0FABBC;
     }
-
+    .btn-top {
+        padding-left: 53%;
+    }
     
 
-
+/* .home */
 .home {
     background-color: #E4F9FF;
 }
@@ -51,36 +53,43 @@ header footer {
 position: absolute;
 right: 50%;
 left: 50%;
-bottom: 50%;
+bottom: 33.3%;
 width: 0;
 height: 0;
 background-color: #eee;
 border-style: solid;
-border-width: 20px;
+border-width: 40px;
 border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 }
+.aaa ul {
+    /* width: 352px; */
+
+}
+.aaa li {
+    float: left;
+    width: 50%;
+}
+
 .triangle-2 {
     position: absolute;
     right: 50%;
     left: 50%;
-    bottom: -142.8%;
+    bottom: -100%;
     width: 0;
     height: 0;
     background-color: #eee;
     border-style: solid;
-    border-width: 20px;
+    border-width: 40px;
     border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     }
 .about-LinedUp {
     background-color: #E4F9FF;
     list-style-position: inside; 
+    margin: 0 calc(50% - 50vw);
     /* li要素の・を引き寄せる */
 }
 /* about */
 
-.Such {
-    /* width: 135%; */
-} 
 
 
 .stay {
@@ -104,6 +113,8 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     background-color: #E4F9FF;
         /* li要素の・を引き寄せる */
     list-style-position: inside; 
+    margin: 0 calc(50% - 50vw);
+    /* 親要素を無視して子要素がはみ出る（bgが表示できるようになる） */
 }
 .space-font {
     width: 80%;
@@ -113,9 +124,6 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     background-color: #ffffff;
     width: 80%;
     margin: 0 auto;
-}
-.space-title-2 {
-    background-color: #ffffff;
 }
 .space-photo img {
     display: block;
@@ -174,7 +182,6 @@ footer {
 .aaaa {
     width: 80%;
     margin: 0 auto;
-}
 
 
 
