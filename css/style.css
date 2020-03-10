@@ -1,70 +1,52 @@
+body {
+    background-color: #E4F9FF;
+}
+
 .btn {
     background-color: #FA163F; /* ボタンの色 */
 }
+
 .font-write {
 color: #ffffff; /* 文字白色 */
 }
+
 .font-blue {
     color: #0FABBC; /* 文字青色 */
 }
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
-header footer {
-    width: 1200px;
-}
-.bg {
+
+/* .bg {
     background-color: #E4F9FF;
-}
+} */
+
 .bg-blue {
     background-color: #0FABBC;
 }
-  /* ↑ 共通class ↑ */
 
+  /* ↑ 共通class ↑ */
 
     header {
         background-color: #0FABBC;
-    }
-
-    
-
-/* .home */
-.home {
-    background-color: #E4F9FF;
 }
+
+/* .home {
+    background-color: #E4F9FF;
+} */
+
 .home-text {
     list-style-position: inside; /* li要素の・を引き寄せる */
 }
+
 .aaaaa {
     margin:0 0 0 auto;
 }
-.home-text_list {
-    
-}
-/* .home */
-
 
 .about {
     background-color: #0FABBC;
 }
+
 .color-rd {
     color: #FA163F;
 }
-
-/* .triangle {
-position: absolute;
-right: 50%;
-left: 50%;
-bottom: 41.5%;
-width: 0;
-height: 0;
-background-color: #eee;
-border-style: solid;
-border-width: 30px;
-border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
-} */
-
 
 .balloon1 {
     position: relative;
@@ -82,7 +64,7 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     content: "";
     position: absolute;
     top: 125%;
-    left: 50%;
+    left: 46.4%;
     margin-left: -35px;
     border: 55px solid transparent;
     border-top: 35px solid #0FABBC;
@@ -93,6 +75,148 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     padding: 0;
   }
 
+
+
+.balloon-step1 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
+
+  }
+  .balloon-step1 h1 {
+    color: #0FABBC;
+  }
+  
+  .balloon-step1:before {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+
+  }
+  
+  .balloon-step1 p {
+    margin: 0;
+    padding: 0;
+  }
+.balloon-step2 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
+
+  }
+  .balloon-step2 h1,h2 {
+    color: #0FABBC;
+  }
+  
+  .balloon-step2:before {
+    content: "";
+    position: absolute;
+    top: 108.3%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+
+  }
+  
+  .balloon-step2 p {
+    margin: 0;
+    padding: 0;
+  }
+.balloon-step3 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
+
+  }
+  .balloon-step3 h1 {
+    color: #0FABBC;
+  }
+  
+  .balloon-step3:before {
+    content: "";
+    position: absolute;
+    top: 110.6%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+
+  }
+  
+  .balloon-step3 p {
+    margin: 0;
+    padding: 0;
+  }
+.balloon-step4 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
+
+  }
+  .balloon-step4 h1 {
+    color: #0FABBC;
+  }
+  
+  /* .balloon-step4:before {
+    content: "";
+    position: absolute;
+    top: 106.3%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+  } */
+  .balloon-step4 p {
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* .triangle {
+position: absolute;
+right: 50%;
+left: 50%;
+bottom: 41.5%;
+width: 0;
+height: 0;
+background-color: #eee;
+border-style: solid;
+border-width: 30px;
+border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
+} */
 
 .triangle-2 {
     position: absolute;
@@ -106,24 +230,21 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     border-width: 40px;
     border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     }
+
 .about-LinedUp {
     background-color: #E4F9FF;
     list-style-position: inside; /* li要素の・を引き寄せる */
     margin: 0 calc(50% - 50vw);
-}
-/* about */
-.access {
-    /* margin: 0 calc(50% - 50vw); */
 }
 
 
 .stay {
     background-color: #0FABBC;
 }
+
 .stay-title {
     list-style-position: inside;     /* li要素の・を引き寄せる */
 }
-/* stay */
 
 .card {
     width: 80%;
@@ -132,79 +253,87 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 
 }
 
+
 .space {
     background-color: #E4F9FF;
     list-style-position: inside;  /* li要素の・を引き寄せる */
-    margin: 0 calc(50% - 50vw);     /* 親要素を無視して子要素がはみ出る（bgが表示できるようになる） */
-
+    /* margin: 0 calc(50% - 50vw); */
+     /* 親要素を無視して子要素がはみ出る（bgが表示できるようになる） */
 }
+
 .space-font {
     width: 80%;
     margin: 0 auto;
 }
+
 .space-title {
     background-color: #ffffff;
     width: 80%;
     margin: 0 auto;
 }
+
 .space-photo img {
     display: block;
 }
-.bg-aaa {
+
+/* .bg-aaa {
     background-color: #0FABBC;
-
-}
-/* .space */
-
+} */
 
 .Preparation {
     text-align: center;
     background-color: #E4F9FF;
 }
+
 .Preparation-start {
     background-color: #0FABBC;
 }
+
 .Preparation-title_list {
     background-color: #ffffff;
     width: 80%;
     margin: 0 auto;
 }
-/* Preparation */
 
 .access {
     background-color: #E4F9FF;
 }
+
 .access-title {
     width: 80%;
     margin: 0 auto;
     background-color: #ffffff;
 }
 
+.place {
+    background-color: #E4F9FF;
+}
 
 .place {
     background-color: #E4F9FF;
 }
-.place {
-    background-color: #E4F9FF;
-}
-/* place */
-
 
 footer {
     background-color: #0FABBC;
     color: #E4F9FF;
+    margin: 0 calc(50% - 50vw);
+
 }
-/* footer */
 
 .foot {
     /* width: 80%;
     margin: 0 auto; */
     background-color: #E4F9FF;
 }
+
 .aaaa {
     width: 80%;
     margin: 0 auto;
-
+}
+.te {
+    height: 15%;
+    width: 100%;
+}
 
 
 
