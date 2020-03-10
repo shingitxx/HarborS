@@ -2,6 +2,10 @@ body {
     background-color: #E4F9FF;
 }
 
+header {
+    background-color: #0FABBC;
+}
+
 .btn {
     background-color: #FA163F; /* ボタンの色 */
 }
@@ -14,38 +18,42 @@ color: #ffffff; /* 文字白色 */
     color: #0FABBC; /* 文字青色 */
 }
 
-/* .bg {
-    background-color: #E4F9FF;
-} */
-
 .bg-blue {
     background-color: #0FABBC;
 }
-
   /* ↑ 共通class ↑ */
 
-    header {
-        background-color: #0FABBC;
+
+
+
+/* header */
+.header-top {
+    margin:0 0 0 auto;
 }
+/* header */
 
-/* .home {
-    background-color: #E4F9FF;
-} */
 
+/* home */
 .home-text {
     list-style-position: inside; /* li要素の・を引き寄せる */
 }
 
-.aaaaa {
-    margin:0 0 0 auto;
+.home-text h3 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
 }
+/* home */
 
+/* about */
 .about {
     background-color: #0FABBC;
 }
 
-.color-rd {
-    color: #FA163F;
+.about-list {
+    background-color: #E4F9FF;
+    list-style-position: inside; /* li要素の・を引き寄せる */
+    margin: 0 calc(50% - 50vw);
 }
 
 .balloon1 {
@@ -58,9 +66,9 @@ color: #ffffff; /* 文字白色 */
     /* color: #555; */
     /* font-size: 16px; */
     background: #0FABBC;
-  }
-  
-  .balloon1:before {
+}
+
+.balloon1:before {
     content: "";
     position: absolute;
     top: 125%;
@@ -68,14 +76,12 @@ color: #ffffff; /* 文字白色 */
     margin-left: -35px;
     border: 55px solid transparent;
     border-top: 35px solid #0FABBC;
-  }
-  
-  .balloon1 p {
+}
+
+.balloon1 p {
     margin: 0;
     padding: 0;
-  }
-
-
+}
 
 .balloon-step1 {
     position: relative;
@@ -87,13 +93,13 @@ color: #ffffff; /* 文字白色 */
     /* color: #555; */
     /* font-size: 16px; */
     background: #ffff;
+}
 
-  }
-  .balloon-step1 h1 {
+.balloon-step1 h1 {
     color: #0FABBC;
-  }
-  
-  .balloon-step1:before {
+}
+
+.balloon-step1:before {
     content: "";
     position: absolute;
     top: 110%;
@@ -102,142 +108,18 @@ color: #ffffff; /* 文字白色 */
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
     color: #0FABBC;
-
-  }
-  
-  .balloon-step1 p {
-    margin: 0;
-    padding: 0;
-  }
-.balloon-step2 {
-    position: relative;
-    display: inline-block;
-    /* margin: 1.5em 0; */
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    /* color: #555; */
-    /* font-size: 16px; */
-    background: #ffff;
-
-  }
-  .balloon-step2 h1,h2 {
-    color: #0FABBC;
-  }
-  
-  .balloon-step2:before {
-    content: "";
-    position: absolute;
-    top: 108.3%;
-    left: 50%;
-    margin-left: -65px;
-    border: 55px solid transparent;
-    border-top: 35px solid #ffff;
-    color: #0FABBC;
-
-  }
-  
-  .balloon-step2 p {
-    margin: 0;
-    padding: 0;
-  }
-.balloon-step3 {
-    position: relative;
-    display: inline-block;
-    /* margin: 1.5em 0; */
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    /* color: #555; */
-    /* font-size: 16px; */
-    background: #ffff;
-
-  }
-  .balloon-step3 h1 {
-    color: #0FABBC;
-  }
-  
-  .balloon-step3:before {
-    content: "";
-    position: absolute;
-    top: 110.6%;
-    left: 50%;
-    margin-left: -65px;
-    border: 55px solid transparent;
-    border-top: 35px solid #ffff;
-    color: #0FABBC;
-
-  }
-  
-  .balloon-step3 p {
-    margin: 0;
-    padding: 0;
-  }
-.balloon-step4 {
-    position: relative;
-    display: inline-block;
-    /* margin: 1.5em 0; */
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    /* color: #555; */
-    /* font-size: 16px; */
-    background: #ffff;
-
-  }
-  .balloon-step4 h1 {
-    color: #0FABBC;
-  }
-  
-  /* .balloon-step4:before {
-    content: "";
-    position: absolute;
-    top: 106.3%;
-    left: 50%;
-    margin-left: -65px;
-    border: 55px solid transparent;
-    border-top: 35px solid #ffff;
-    color: #0FABBC;
-  } */
-  .balloon-step4 p {
-    margin: 0;
-    padding: 0;
-  }
-
-
-/* .triangle {
-position: absolute;
-right: 50%;
-left: 50%;
-bottom: 41.5%;
-width: 0;
-height: 0;
-background-color: #eee;
-border-style: solid;
-border-width: 30px;
-border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
-} */
-
-.triangle-2 {
-    position: absolute;
-    right: 50%;
-    left: 50%;
-    bottom: -100%;
-    width: 0;
-    height: 0;
-    background-color: #eee;
-    border-style: solid;
-    border-width: 40px;
-    border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
-    }
-
-.about-LinedUp {
-    background-color: #E4F9FF;
-    list-style-position: inside; /* li要素の・を引き寄せる */
-    margin: 0 calc(50% - 50vw);
 }
 
+.balloon-step1 p {
+    margin: 0;
+    padding: 0;
+}
+.icon-red {
+    color: #FA163F;
+}
+/* about */
 
+/* stay */
 .stay {
     background-color: #0FABBC;
 }
@@ -245,20 +127,12 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 .stay-title {
     list-style-position: inside;     /* li要素の・を引き寄せる */
 }
+/* stay */
 
-.card {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #0FABBC;
-
-}
-
-
+/* space */
 .space {
     background-color: #E4F9FF;
     list-style-position: inside;  /* li要素の・を引き寄せる */
-    /* margin: 0 calc(50% - 50vw); */
-     /* 親要素を無視して子要素がはみ出る（bgが表示できるようになる） */
 }
 
 .space-font {
@@ -275,26 +149,9 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
 .space-photo img {
     display: block;
 }
+/* space */
 
-/* .bg-aaa {
-    background-color: #0FABBC;
-} */
-
-.Preparation {
-    text-align: center;
-    background-color: #E4F9FF;
-}
-
-.Preparation-start {
-    background-color: #0FABBC;
-}
-
-.Preparation-title_list {
-    background-color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
-}
-
+/* access */
 .access {
     background-color: #E4F9FF;
 }
@@ -304,36 +161,143 @@ border-color: #0FABBC #E4F9FF #E4F9FF #E4F9FF;
     margin: 0 auto;
     background-color: #ffffff;
 }
-
-.place {
-    background-color: #E4F9FF;
+.balloon-step2 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
 }
 
-.place {
-    background-color: #E4F9FF;
+.balloon-step2 h1,h2 {
+    color: #0FABBC;
 }
 
-footer {
-    background-color: #0FABBC;
-    color: #E4F9FF;
-    margin: 0 calc(50% - 50vw);
-
+.balloon-step2:before {
+    content: "";
+    position: absolute;
+    top: 108.3%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
 }
 
+.balloon-step2 p {
+    margin: 0;
+    padding: 0;
+}
+
+.balloon-step3 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
+}
+
+.balloon-step3 h1 {
+    color: #0FABBC;
+}
+
+.balloon-step3:before {
+    content: "";
+    position: absolute;
+    top: 110.6%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+}
+
+.balloon-step3 p {
+    margin: 0;
+    padding: 0;
+}
+
+.balloon-step4 {
+    position: relative;
+    display: inline-block;
+    /* margin: 1.5em 0; */
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #ffff;
+}
+
+.balloon-step4 h1 {
+    color: #0FABBC;
+}
+
+/* .balloon-step4:before {
+    content: "";
+    position: absolute;
+    top: 106.3%;
+    left: 50%;
+    margin-left: -65px;
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+  } */
+
+.balloon-step4 p {
+    margin: 0;
+    padding: 0;
+}
+/* access */
+
+/* foot */
 .foot {
     /* width: 80%;
     margin: 0 auto; */
     background-color: #E4F9FF;
 }
 
-.aaaa {
+.foot-main {
     width: 80%;
     margin: 0 auto;
 }
-.te {
+
+.foot-button {
     height: 15%;
     width: 100%;
 }
+/* foot */
+
+/* footer */
+footer {
+    background-color: #0FABBC;
+    color: #E4F9FF;
+    margin: 0 calc(50% - 50vw);
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
