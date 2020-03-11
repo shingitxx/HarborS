@@ -54,6 +54,12 @@ color: #ffffff; /* 文字白色 */
     background-color: #E4F9FF;
     list-style-position: inside; /* li要素の・を引き寄せる */
     margin: 0 calc(50% - 50vw);
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.about-list ul {
+    list-style: none;
 }
 
 .balloon1 {
@@ -66,6 +72,9 @@ color: #ffffff; /* 文字白色 */
     /* color: #555; */
     /* font-size: 16px; */
     background: #0FABBC;
+}
+.about-list {
+    
 }
 
 .balloon1:before {
@@ -127,6 +136,7 @@ color: #ffffff; /* 文字白色 */
 .stay-title {
     list-style-position: inside;     /* li要素の・を引き寄せる */
 }
+
 /* stay */
 
 /* space */
