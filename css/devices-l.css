@@ -1,0 +1,164 @@
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	body {
+		background-color: chartreuse;
+	}
+	.home-photo img {
+		width: 45%;
+	}
+
+	.balloon {
+		position: relative;
+		display: inline-block;
+		margin: 1.5em 0;
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		/* color: #555; */
+		/* font-size: 16px; */
+		background: #0FABBC;
+	}
+	
+	.balloon:before {
+		content: "";
+		position: absolute;
+		top: 125%;
+		left: 47.7%;
+		margin-left: -35px;
+		border: 55px solid transparent;
+		border-top: 35px solid #0FABBC;
+	}
+	
+	.balloon p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.balloon1 {
+		position: relative;
+		display: inline-block;
+		margin: 1.5em 0;
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		/* color: #555; */
+		/* font-size: 16px; */
+		background: #0FABBC;
+	}
+	
+	.balloon1:before {
+		content: "";
+		position: absolute;
+		top: 125%;
+		left: 45.5%;
+		margin-left: -35px;
+		border: 55px solid transparent;
+		border-top: 35px solid #0FABBC;
+	}
+	
+	.balloon1 p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.balloon-step1 {
+		position: relative;
+		display: inline-block;
+		/* margin: 1.5em 0; */
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		/* color: #555; */
+		/* font-size: 16px; */
+		background: #ffff;
+	}
+	
+	.balloon-step1 h1 {
+		color: #0FABBC;
+	}
+	
+	.balloon-step1:before {
+		content: "";
+		position: absolute;
+		top: 110%;
+		left: 52%;
+		margin-left: -65px;
+		border: 55px solid transparent;
+		border-top: 35px solid #ffff;
+		color: #0FABBC;
+	}
+	
+	.balloon-step1 p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.balloon-step2 {
+		position: relative;
+		display: inline-block;
+		/* margin: 1.5em 0; */
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		/* color: #555; */
+		/* font-size: 16px; */
+		background: #ffff;
+	}
+	
+	.balloon-step2:before {
+		content: "";
+		position: absolute;
+		top: 108.3%;
+		left: 52%;
+		margin-left: -65px;
+		border: 55px solid transparent;
+		border-top: 35px solid #ffff;
+		color: #0FABBC;
+	}
+	
+	.balloon-step2 h1,h2 {
+		color: #0FABBC;
+	}
+	
+	.balloon-step2 p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.balloon-step3 {
+		position: relative;
+		display: inline-block;
+		/* margin: 1.5em 0; */
+		padding: 7px 10px;
+		min-width: 120px;
+		max-width: 100%;
+		/* color: #555; */
+		/* font-size: 16px; */
+		background: #ffff;
+	}
+	
+	.balloon-step3 h1 {
+		color: #0FABBC;
+	}
+	
+	.balloon-step3:before {
+		content: "";
+		position: absolute;
+		top: 110.6%;
+		left: 51.7%;
+		margin-left: -65px;
+		border: 55px solid transparent;
+		border-top: 35px solid #ffff;
+		color: #0FABBC;
+	}
+	
+	.balloon-step3 p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.foot-button {
+		height: 15%;
+    	width: 130%;
+	}
+}
