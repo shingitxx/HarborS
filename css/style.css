@@ -221,9 +221,9 @@ color: #ffffff; /* 文字白色 */
     color: #0FABBC;
 }
 
-.balloon-step2 h1,h2 {
+/* .balloon-step2 h1,h2 {
     color: #0FABBC;
-}
+} */
 
 .balloon-step2 p {
     margin: 0;
@@ -321,6 +321,10 @@ footer {
 }
 /* footer */
 
+
+.yuyu h1 {
+    font-size: 1rem;
+}
 
 
 
