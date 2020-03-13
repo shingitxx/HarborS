@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/devices-s.css">
+    <link rel="stylesheet" href="css/devices-m.css">
+    <link rel="stylesheet" href="css/devices-l.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
     <title>HarborS</title>
 </head>
 
@@ -19,14 +24,27 @@
 
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light pb-2 pt-2">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light pb-2 pt-2">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" class="">
             </a>
             <div class="collapse navbar-collapse">
                 <form class="form-inline header-top my-2 my-lg-0 ">
                     <button class="btn my-2 my-sm-0 pr-5 pl-5 font-write" type="submit">
-                        <p  class="h5">HarborS for Beginnerに</p>
+                        <p class="h5">HarborS for Beginnerに</p>
+                        <p class="h3 font-weight-bold">申し込む</p>
+                    </button>
+                </form>
+            </div>
+        </nav> -->
+        <nav class="navbar navbar-expand navbar-light pb-2 pt-2">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" class="">
+            </a>
+            <div class="collapse navbar-collapse">
+                <form class="form-inline header-top my-2 my-lg-0 ">
+                    <button class="btn my-2 my-sm-0 pr-5 pl-5 font-write" type="submit">
+                        <p class="h5">HarborS for Beginnerに</p>
                         <p class="h3 font-weight-bold">申し込む</p>
                     </button>
                 </form>
@@ -43,21 +61,22 @@
                 <!-- d-flex 指定 column縦並べ-->
                 <div class="row mx-auto">
                     <div class="col-auto">
-                        <div>
-                            <img src="img/start.png" alt="start">
-                            <img src="img/now.png" alt="now">
+                        <div class="home-photo">
+                            <img src="img/start.png" alt="start" class="">
+                            <img src="img/now.png" alt="" class="now">
                         </div>
                         <h1 class="font-blue display-3 font-weight-bold">HarborS for Beginner</h1>
                         <h3 class="font-blue display-5 mb-5 font-weight-bold">駆け出しエンジニア向けコワーキングスペース</h3>
                         <div class="home-text">
                             <h2 class="display-5 font-weight-bold">現役エンジニアによる</h2>
-                            <h3 class=""> <!-- li要素のサイズ変更のため-->
+                            <h3 class="">
+                                <!-- li要素のサイズ変更のため-->
                                 <ul>
                                     <li>技術相談</li>
                                     <li>キャリア相談</li>
                                 </ul>
                             </h3>
-                                    <a style="font-size: 45px;" href="#"
+                            <a style="font-size: 45px;" href="#"
                                 class="btn btn-lg active font-write mb-5 pr-5 pl-5 mt-3 font-weight-bold"
                                 role="button">話しを聞いてみたい</a>
                         </div>
@@ -66,16 +85,16 @@
             </div>
         </div>
     </div>
-        <!-- home -->
+    <!-- home -->
 
-        <!-- about -->
+    <!-- about -->
     <div class="about">
         <div class="container">
             <div class="d-flex flex-column text-center">
                 <!-- d-flex 指定 column縦並べ-->
                 <div class="row">
                     <div class="col-12 mx-auto">
-                        <div class="balloon1">
+                        <div class="balloon">
                             <h1 class="font-write font-weight-bold mb-0 pt-2 pb-2">
                                 質問が出来ずに困った事はありませんか？</h1>
                         </div>
@@ -91,13 +110,13 @@
                         <div class="about-list pt-5 pb-4">
                             <ul class="pt-3">
                                 <li class="h2"><i class="fas fa-check fa-1x icon-red">
-                                </i>このエラーの意味が分からない</li>
+                                    </i>このエラーの意味が分からない</li>
                                 <li class="h2"><i class="fas fa-check fa-1x icon-red">
-                                </i>環境構築が分からない</li>
+                                    </i>環境構築が分からない</li>
                                 <li class="h2"><i class="fas fa-check fa-1x icon-red">
-                                </i>ネットワークの仕組みを教えて欲しい</li>
+                                    </i>ネットワークの仕組みを教えて欲しい</li>
                                 <li class="h2 text-right">など</li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -190,16 +209,17 @@
                 </div>
             </div>
             <div class="text-center">
-                <a style="font-size:45px;" href="#" class=" btn btn-lg active font-write pr-5 pl-5 mt-5 mb-5 font-weight-bold"
+                <a style="font-size:45px;" href="#"
+                    class=" btn btn-lg active font-write pr-5 pl-5 mt-5 mb-5 font-weight-bold"
                     role="button">話しを聞いてみたい</a>
 
-                    
+
             </div>
         </div>
     </div>
-        <!-- space -->
+    <!-- space -->
 
-        <!-- about -->
+    <!-- about -->
     <div class="about">
         <div class="container">
             <div class="d-flex flex-column text-center">
@@ -214,7 +234,7 @@
             </div>
         </div>
     </div>
-            <!-- about -->
+    <!-- about -->
 
 
     <div class="bg pb-5 pt-5"></div>
@@ -287,7 +307,7 @@
                     <a style="font-size:35px;" href="#"
                         class="btn btn-lg active font-write mt-5 mb-5 pr-5 pl-5 font-weight-bold"
                         role="button">話しを聞いてみたい</a>
-                    </div>
+                </div>
             </div>
         </div>
 
