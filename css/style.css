@@ -43,6 +43,9 @@ color: #ffffff; /* 文字白色 */
     justify-content: center;
     text-align: left;
 }
+/* .home-photo img {
+} */
+
 /* home */
 
 /* about */
@@ -62,6 +65,33 @@ color: #ffffff; /* 文字白色 */
     list-style: none;
 }
 
+.balloon {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    /* color: #555; */
+    /* font-size: 16px; */
+    background: #0FABBC;
+}
+
+.balloon:before {
+    content: "";
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    margin-left: -35px;
+    border: 55px solid transparent;
+    border-top: 35px solid #0FABBC;
+}
+
+.balloon p {
+    margin: 0;
+    padding: 0;
+}
+
 .balloon1 {
     position: relative;
     display: inline-block;
@@ -73,15 +103,12 @@ color: #ffffff; /* 文字白色 */
     /* font-size: 16px; */
     background: #0FABBC;
 }
-.about-list {
-    
-}
 
 .balloon1:before {
     content: "";
     position: absolute;
     top: 125%;
-    left: 46.4%;
+    left: 50%;
     margin-left: -35px;
     border: 55px solid transparent;
     border-top: 35px solid #0FABBC;
@@ -112,7 +139,7 @@ color: #ffffff; /* 文字白色 */
     content: "";
     position: absolute;
     top: 110%;
-    left: 50%;
+    left: 56.4%;
     margin-left: -65px;
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
@@ -183,18 +210,18 @@ color: #ffffff; /* 文字白色 */
     background: #ffff;
 }
 
-.balloon-step2 h1,h2 {
-    color: #0FABBC;
-}
-
 .balloon-step2:before {
     content: "";
     position: absolute;
     top: 108.3%;
-    left: 50%;
+    left: 53%;
     margin-left: -65px;
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
+    color: #0FABBC;
+}
+
+.balloon-step2 h1,h2 {
     color: #0FABBC;
 }
 
@@ -223,7 +250,7 @@ color: #ffffff; /* 文字白色 */
     content: "";
     position: absolute;
     top: 110.6%;
-    left: 50%;
+    left: 53%;
     margin-left: -65px;
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
@@ -300,17 +327,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 
@@ -319,20 +335,8 @@ footer {
 
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
 
-}
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
 
-}
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-.container-fluid {
-    /* background-color: chartreuse; */
-}
-}
 
