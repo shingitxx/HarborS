@@ -9,6 +9,7 @@ header {
 .btn {
     background-color: #FA163F; /* ボタンの色 */
     font-size: 2rem;
+    width: 60%;
 }
 .btn p {
     background-color: #FA163F; /* ボタンの色 */
@@ -54,8 +55,7 @@ color: #ffffff; /* 文字白色 */
     justify-content: center;
     text-align: left;
 }
-/* .home-photo img {
-} */
+
 
 /* home */
 
@@ -360,12 +360,8 @@ footer {
 /* // No media query since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
+@media (max-width: 576px) {
+  body {
+    /* background-color: #0FABBC; */
+  }  
 }
-
-
-
-
-
-
