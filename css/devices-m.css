@@ -186,12 +186,16 @@
 	.space-photo {
 		width: 100%;
 	}
+	.foot-main p {
+		font-size: 1rem;
+	}
 	.btn-foot {
         width: 78%;
         height: 15%;
     }
 	.btn-foot p {
         font-size: 1rem;
-    }
+	}
+	
 
 }
