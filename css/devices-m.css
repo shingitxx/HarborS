@@ -2,7 +2,16 @@
 @media (min-width: 768px) and (max-width: 991.98px) { 
 	body {
 		background-color: violet;
-    }
+	}
+	/* .btn {
+		width: 70%;	
+	} */
+	.header-photo {
+		width: 75%;
+		}
+		.navbar-brand {
+			width: 360px;
+		}
 
 	.home-photo img {
 		width: 45%;
@@ -20,7 +29,7 @@
 		max-width: 100%;
 		/* color: #555; */
 		/* font-size: 16px; */
-		background: #0FABBC;
+		/* background: #0FABBC; */
 	}
 	
 	.balloon:before {
@@ -60,7 +69,7 @@
 		max-width: 100%;
 		/* color: #555; */
 		/* font-size: 16px; */
-		background: #0FABBC;
+		/* background: #0FABBC; */
 	}
 	
 	.balloon1:before {
@@ -87,12 +96,12 @@
 		max-width: 100%;
 		/* color: #555; */
 		/* font-size: 16px; */
-		background: #ffff;
+		/* background: #ffff; */
 	}
 	
-	.balloon-step1 h1 {
+	/* .balloon-step1 h1 {
 		color: #0FABBC;
-	}
+	} */
 	
 	.balloon-step1:before {
 		content: "";
@@ -102,7 +111,7 @@
 		margin-left: -65px;
 		border: 55px solid transparent;
 		border-top: 35px solid #ffff;
-		color: #0FABBC;
+		/* color: #0FABBC; */
 	}
 	
 	.balloon-step1 p {
@@ -119,7 +128,7 @@
 		max-width: 100%;
 		/* color: #555; */
 		/* font-size: 16px; */
-		background: #ffff;
+		/* background: #ffff; */
 	}
 	
 	.balloon-step2:before {
@@ -130,12 +139,12 @@
 		margin-left: -65px;
 		border: 55px solid transparent;
 		border-top: 35px solid #ffff;
-		color: #0FABBC;
+		/* color: #0FABBC; */
 	}
 	
-	.balloon-step2 h1,h2 {
+	/* .balloon-step2 h1,h2 {
 		color: #0FABBC;
-	}
+	} */
 	
 	.balloon-step2 p {
 		margin: 0;
@@ -151,12 +160,12 @@
 		max-width: 100%;
 		/* color: #555; */
 		/* font-size: 16px; */
-		background: #ffff;
+		/* background: #ffff; */
 	}
 	
-	.balloon-step3 h1 {
+	/* .balloon-step3 h1 {
 		color: #0FABBC;
-	}
+	} */
 	
 	.balloon-step3:before {
 		content: "";
@@ -166,11 +175,23 @@
 		margin-left: -65px;
 		border: 55px solid transparent;
 		border-top: 35px solid #ffff;
-		color: #0FABBC;
+		/* color: #0FABBC; */
 	}
 	
 	.balloon-step3 p {
 		margin: 0;
 		padding: 0;
 	}
+
+	.space-photo {
+		width: 100%;
+	}
+	.btn-foot {
+        width: 78%;
+        height: 15%;
+    }
+	.btn-foot p {
+        font-size: 1rem;
+    }
+
 }
