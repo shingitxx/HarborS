@@ -4,6 +4,11 @@
 		background-color: blue;
 	}
 	
+	.btn {
+		width: 90%;
+
+	}
+
 	.header-photo {
 	width: 75%;
 	}
@@ -54,7 +59,7 @@
 		content: "";
 		position: absolute;
 		top: 125%;
-		left: 47.7%;
+		left: 46%;
 		margin-left: -35px;
 		border: 55px solid transparent;
 		border-top: 35px solid #0FABBC;
@@ -81,7 +86,7 @@
 		content: "";
 		position: absolute;
 		top: 125%;
-		left: 45.5%;
+		left: 42%;
 		margin-left: -35px;
 		border: 55px solid transparent;
 		border-top: 35px solid #0FABBC;
@@ -103,15 +108,11 @@
 		/* font-size: 16px; */
 		/* background: #ffff; */
 	}
-	
-	.balloon-step1 h1 {
-		/* color: #0FABBC; */
-	}
-	
+		
 	.balloon-step1:before {
 		content: "";
 		position: absolute;
-		top: 110%;
+		top: 106%;
 		left: 52%;
 		margin-left: -65px;
 		border: 55px solid transparent;
@@ -139,7 +140,7 @@
 	.balloon-step2:before {
 		content: "";
 		position: absolute;
-		top: 108.3%;
+		top: 105%;
 		left: 52%;
 		margin-left: -65px;
 		border: 55px solid transparent;
@@ -175,8 +176,8 @@
 	.balloon-step3:before {
 		content: "";
 		position: absolute;
-		top: 110.6%;
-		left: 51.7%;
+		top: 108%;
+		left: 52%;
 		margin-left: -65px;
 		border: 55px solid transparent;
 		border-top: 35px solid #ffff;
@@ -187,16 +188,26 @@
 		margin: 0;
 		padding: 0;
 	}
+	.access h4 {
+		font-size: 1rem;
+	}
+	.access h1 {
+		font-size: 1.75rem;
+	}
+	.access h2 {
+		font-size: 1.5rem;
+	}
+	.foot-main p {
+		font-size: 0.8rem;
+	}
+
 
 	.btn-foot {
         width: 95%;
-        height: 10%;
+        height: 16%;
     }
 	.btn-foot p {
         font-size: 0.8rem;
     }
-
-
-
 
 }
