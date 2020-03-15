@@ -8,6 +8,17 @@ header {
 
 .btn {
     background-color: #FA163F; /* ボタンの色 */
+    font-size: 2rem;
+}
+.btn p {
+    background-color: #FA163F; /* ボタンの色 */
+    /* font-size: 4500px; */
+}
+.btn-top {
+    background-color: #FA163F; /* ボタンの色 */
+}
+.btn-foot {
+    background-color: #FA163F; /* ボタンの色 */
 }
 
 .font-write {
@@ -81,7 +92,7 @@ color: #ffffff; /* 文字白色 */
     content: "";
     position: absolute;
     top: 125%;
-    left: 50%;
+    left: 47.3%;
     margin-left: -35px;
     border: 55px solid transparent;
     border-top: 35px solid #0FABBC;
@@ -108,7 +119,7 @@ color: #ffffff; /* 文字白色 */
     content: "";
     position: absolute;
     top: 125%;
-    left: 50%;
+    left: 45.1%;
     margin-left: -35px;
     border: 55px solid transparent;
     border-top: 35px solid #0FABBC;
@@ -138,8 +149,8 @@ color: #ffffff; /* 文字白色 */
 .balloon-step1:before {
     content: "";
     position: absolute;
-    top: 110%;
-    left: 56.4%;
+    top: 109%;
+    left: 54%;
     margin-left: -65px;
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
@@ -192,6 +203,9 @@ color: #ffffff; /* 文字白色 */
 .access {
     background-color: #E4F9FF;
 }
+.access h2 {
+    color: #0FABBC;
+}
 
 .access-title {
     width: 80%;
@@ -214,16 +228,19 @@ color: #ffffff; /* 文字白色 */
     content: "";
     position: absolute;
     top: 108.3%;
-    left: 53%;
+    left: 51%;
     margin-left: -65px;
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
     color: #0FABBC;
 }
 
-/* .balloon-step2 h1,h2 {
+.balloon-step2 h1 {
     color: #0FABBC;
-} */
+}
+.balloon-step2 h2 {
+    color: #0FABBC;
+}
 
 .balloon-step2 p {
     margin: 0;
@@ -250,7 +267,7 @@ color: #ffffff; /* 文字白色 */
     content: "";
     position: absolute;
     top: 110.6%;
-    left: 53%;
+    left: 51%;
     margin-left: -65px;
     border: 55px solid transparent;
     border-top: 35px solid #ffff;
@@ -301,16 +318,29 @@ color: #ffffff; /* 文字白色 */
     margin: 0 auto; */
     background-color: #E4F9FF;
 }
-
+/* 
 .foot-main {
     width: 80%;
     margin: 0 auto;
-}
+} */
 
-.foot-button {
-    height: 15%;
+  .iframe-wrap {
+    position: relative;
+    width: 150%;
+    padding-top: 50%;
+    }
+ 
+.iframe-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-}
+    height: 85%;
+    }
+    .btn-foot {
+        width: 65%;
+        height: 15%;
+    }
 /* foot */
 
 /* footer */
@@ -320,11 +350,6 @@ footer {
     margin: 0 calc(50% - 50vw);
 }
 /* footer */
-
-
-.yuyu h1 {
-    font-size: 1rem;
-}
 
 
 
