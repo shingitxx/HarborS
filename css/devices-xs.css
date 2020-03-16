@@ -1,0 +1,77 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    /* body {
+      background-color: deeppink;
+    }   */
+    .btn {
+        background-color: #FA163F;
+        font-size: 2rem;
+        width: 80%;
+    }
+    .collapse {
+        width: 60%;
+    }
+    .header-photo {
+      width: 75%;
+      }
+        .home-photo img {
+            width: 40%;
+        }
+        .home h1 {
+            font-size: 2.9rem;
+        }
+        .about h1 {
+            font-size: 1.6rem;
+        }
+        .stay-title h4 {
+            font-size: 2rem;
+        }
+        .stay-title h1 {
+            font-size: 2rem;
+        }
+        .stay-title h2 {
+            font-size: 1.3rem;
+        }
+        .space h1 {
+            font-size: 1.5rem;
+        }
+        .space-title h3 {
+            font-size: 1rem;
+        }
+        .about h1 {
+            font-size: 2rem;
+        }
+        
+      
+      .header-top {
+          width: 100%;
+      }
+      .btn-top {
+          width: 100%;
+      }
+      .btn-top h3 {
+          font-size: 0.8rem;
+      }
+      .btn-top h5 {
+          font-size: 0.5rem;
+          width: 100%;
+      }
+      .access h1 {
+          font-size: 1.8rem;
+      }
+      .access h2 {
+        font-size: 1.5rem;
+    }
+    .access h4 {
+        font-size: 1rem;
+    }
+    .foot p {
+        font-size: 0.5rem;
+    }
+    .btn-foot {
+        width: 74%;
+    }
+  }
