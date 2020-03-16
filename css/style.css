@@ -9,7 +9,10 @@ header {
 .btn {
     background-color: #FA163F; /* ボタンの色 */
     font-size: 2rem;
-    width: 60%;
+    /* width: 60%; */
+}
+.btn:hover {
+    color: #FA163F;
 }
 .btn p {
     background-color: #FA163F; /* ボタンの色 */
@@ -17,6 +20,13 @@ header {
 }
 .btn-top {
     background-color: #FA163F; /* ボタンの色 */
+    
+}
+.btn-top h3 {
+    font-size: 2rem;
+}
+.btn-top h5 {
+    font-size: 1.5rem;
 }
 .btn-foot {
     background-color: #FA163F; /* ボタンの色 */
@@ -42,12 +52,19 @@ color: #ffffff; /* 文字白色 */
 .header-top {
     margin:0 0 0 auto;
 }
+/* .collapse {
+    width: 100%;
+} */
+/* .header-top {
+    width: 100%;
+} */
 /* header */
 
 
 /* home */
 .home-text {
-    list-style-position: inside; /* li要素の・を引き寄せる */
+    list-style-position: inside; 
+    /* li要素の・を引き寄せる */
 }
 
 .home-text h3 {
@@ -91,7 +108,7 @@ color: #ffffff; /* 文字白色 */
 .balloon:before {
     content: "";
     position: absolute;
-    top: 125%;
+    top: 122%;
     left: 47.3%;
     margin-left: -35px;
     border: 55px solid transparent;
@@ -356,12 +373,4 @@ footer {
 
 
 
-/* // Extra small devices (portrait phones, less than 576px) */
-/* // No media query since this is the default in Bootstrap */
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-  body {
-    /* background-color: #0FABBC; */
-  }  
-}
