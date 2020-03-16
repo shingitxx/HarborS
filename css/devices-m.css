@@ -1,8 +1,8 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	body {
+	/* body {
 		background-color: violet;
-	}
+	} */
 	/* .btn {
 		width: 70%;	
 	} */
@@ -35,7 +35,7 @@
 	.balloon:before {
 		content: "";
 		position: absolute;
-		top: 125%;
+		top: 122%;
 		left: 47.7%;
 		margin-left: -35px;
 		border: 55px solid transparent;
@@ -190,7 +190,7 @@
 		font-size: 1rem;
 	}
 	.btn-foot {
-        width: 78%;
+        width: 81%;
         height: 15%;
     }
 	.btn-foot p {
