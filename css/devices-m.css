@@ -1,11 +1,9 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	/* body {
-		background-color: violet;
-	} */
-	/* .btn {
-		width: 70%;	
-	} */
+	body {
+		/* background-color: violet; */
+	}
+
 	.header-photo {
 		width: 75%;
 		}
@@ -18,7 +16,10 @@
     }
     .home h1 {
         font-size: 4rem;
-    }
+	}
+    .home p {
+        font-size: 1.9rem;
+	}
     
     .balloon {
 		position: relative;
@@ -52,7 +53,11 @@
 
     .stay h1 {
         font-size: 3.3rem;
-    }
+	}
+	.stay h3 {
+        font-size: 3rem;
+	}
+	
     .access h4 {
         font-size: 1.1rem;
     }
@@ -106,7 +111,7 @@
 	.balloon-step1:before {
 		content: "";
 		position: absolute;
-		top: 110%;
+		top: 107%;
 		left: 52%;
 		margin-left: -65px;
 		border: 55px solid transparent;
@@ -134,7 +139,7 @@
 	.balloon-step2:before {
 		content: "";
 		position: absolute;
-		top: 108.3%;
+		top: 107.3%;
 		left: 52%;
 		margin-left: -65px;
 		border: 55px solid transparent;
@@ -185,13 +190,21 @@
 
 	.space-photo {
 		width: 100%;
+		height: 100%;
+	}
+	.space-photo img {
+		width: 100%;
+		height: 100%;
+	}
+	.space-harbors img {
+		width: 80%;
 	}
 	.foot-main p {
 		font-size: 1rem;
 	}
 	.btn-foot {
-        width: 81%;
-        height: 15%;
+        width: 67%;
+        height: 17%;
     }
 	.btn-foot p {
         font-size: 1rem;
