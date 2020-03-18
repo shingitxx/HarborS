@@ -76,7 +76,7 @@
 	}
 	.space-title li {
 		font-size: 0.8rem;
-		padding-right: 2%;
+		width: 100%;
 	}
 	.space-title_logo {
 		height: 6rem
