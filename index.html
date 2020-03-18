@@ -1,449 +1,352 @@
-<!doctype html>
-<html lang="ja">
+body {
+    background-color: #E4F9FF;
+}
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+header {
+    background-color: #0FABBC;
+}
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/devices-s.css">
-    <link rel="stylesheet" href="css/devices-m.css">
-    <link rel="stylesheet" href="css/devices-l.css">
-    <link rel="stylesheet" href="css/devices-xs.css">
+.btn {
+    background-color: #FA163F; /* ボタンの色 */
+    font-size: 2rem;
+    /* width: 60%; */
+}
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+.btn:hover {
+    color: #FA163F;
+}
 
-    <title>HarborS</title>
-</head>
+.btn p {
+    background-color: #FA163F; /* ボタンの色 */
+}
 
+.btn-top {
+    background-color: #FA163F; /* ボタンの色 */ 
+}
 
-<body>
+.btn-top h3 {
+    font-size: 2rem;
+}
 
-    <!-- header -->
-    <header>
-        <nav class="navbar navbar-expand navbar-light pb-2 pt-2">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="" class="header-photo">
-            </a>
-            <!-- <div class="collapse navbar-collapse"> -->
-            <div class="navbar-collapse collapse ">
-                <form class="form-inline header-top my-2 my-lg-0">
-                    <!-- <button class="btn-top my-2 my-sm-0 pr-5 pl-5 pr-sm-0 pl-sm-0 font-write" type="submit"> -->
-                    <button class="btn-top font-write" type="submit">
-                        <h5>HarborS for Beginnerに</h5>
-                        <h3 class="font-weight-bold">申し込む</h3>
-                    </button>
-                </form>
-            </div>
-        </nav>
-    </header>
-    <!-- header -->
+.btn-top h5 {
+    font-size: 1.5rem;
+}
 
+.btn-foot {
+    background-color: #FA163F; /* ボタンの色 */
+        width: 60%;
+        height: 15%;
+}
 
-    <!-- home -->
-    <div class="home">
-        <div class="container">
-            <div class="d-flex flex-column text-center">
-                <!-- d-flex 指定 column縦並べ-->
-                <div class="row mx-auto">
-                    <div class="col-auto">
-                        <div class="home-photo">
-                            <img src="img/start-1.png" alt="start" class="pr-5">
-                            <img src="img/now-1.png" alt="now" class="pl-5">
-                        </div>
-                        <h1 class="font-blue display-3 font-weight-bold">HarborS for Beginner</h1>
-                        <p class="h1 home-text font-blue  mb-5 font-weight-bold">駆け出しエンジニア向けコワーキングスペース</p>
-                        <div class="home-text">
-                            <h2 class="display-5 font-weight-bold">現役エンジニアによる</h2>
-                            <h3 class="">
-                                <!-- li要素のサイズ変更のため-->
-                                <ul>
-                                    <li>技術相談</li>
-                                    <li>キャリア相談</li>
-                                </ul>
-                            </h3>
-                            <a href="#" class="btn btn-lg active font-write mb-5 pr-5 pl-5 mt-3 font-weight-bold"
-                                role="button">話しを聞いてみたい</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- home -->
+.font-write {
+color: #ffffff; /* 文字白色 */
+}
 
-    <!-- about -->
-    <div class="about">
-        <div class="container">
-            <div class="d-flex flex-column text-center">
-                <!-- d-flex 指定 column縦並べ-->
-                <div class="row">
-                    <div class="col-12 mx-auto">
-                        <div class="balloon">
-                            <h1 class="font-write font-weight-bold mb-0 pt-2 pb-2">
-                                質問が出来ずに困った事はありませんか？</h1>
-                        </div>
+.font-blue {
+    color: #0FABBC; /* 文字青色 */
+}
 
-
-                        <div class="about-list pt-5 pb-4">
-                            <ul class="pt-3">
-                                <li class="h2"><i class="fas fa-check fa-1x icon-red">
-                                    </i>このエラーの意味が分からない</li>
-                                <li class="h2"><i class="fas fa-check fa-1x icon-red">
-                                    </i>環境構築が分からない</li>
-                                <li class="h2"><i class="fas fa-check fa-1x icon-red">
-                                    </i>ネットワークの仕組みを教えて欲しい</li>
-                                <li class="h2 text-right">など</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about -->
+.bg-blue {
+    background-color: #0FABBC;
+}
+  /* ↑ 共通class ↑ */
 
 
 
 
-    <!-- stay -->
-    <div class="stay">
-        <!-- <div class="container-fluid"> -->
-        <div class="container">
-            <div class="d-flex flex-column text-center">
-                <!-- d-flex 指定 column縦並べ-->
-                <div class="row">
-                    <div class="col-12 mx-auto">
-                        <div class="stay-title font-write">
-                            <!-- <h4 class="display-4 mb-3 mt-3">HarborS for Beginner</h4> -->
-                            <h3 class="display-4 mb-3 mt-3">HarborS for Beginner</h3>
-                            <h1 class="display-4 font-weight-bold mb-4 mt-4">駆け出しエンジニアが<br>技術を学べる場を提供します</h1>
-                            <h2>
-                                <ul class="font-write">
-                                    <li>現役エンジニアが技術相談をのります</li>
-                                    <li>コワーキングスペースが利用できます</li>
-                                </ul>
-                            </h2>
-                            <a href="#" class="btn btn-lg active font-write mb-5 pr-5 pl-5 mt-3 font-weight-bold"
-                                role="button">話しを聞いてみたい</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- stay -->
+/* header */
+.header-top {
+    margin:0 0 0 auto;
+}
+/* header */
+
+
+/* home */
+.home-text {
+    list-style-position: inside; 
+    /* li要素の・を引き寄せる */
+}
+
+.home-text h3 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+/* home */
+
+/* about */
+.about {
+    background-color: #0FABBC;
+}
+
+.about-list {
+    background-color: #E4F9FF;
+    list-style-position: inside; /* li要素の・を引き寄せる */
+    margin: 0 calc(50% - 50vw);
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-list ul {
+    list-style: none;
+}
+.balloon {
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    background: #0FABBC;
+}
+
+
+.balloon:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 55px solid transparent;
+    border-top: 35px solid #0FABBC;
+}
+
+
+.balloon p {
+    margin: 0;
+    padding: 0;
+}
+
+.balloon1 {
+    position: relative;
+    display: inline-block;
+    min-width: 120px;
+    max-width: 100%;
+    background: #0FABBC;
+}
+
+.balloon1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 55px solid transparent;
+    border-top: 35px solid #0FABBC;
+}
+
+.balloon1 p {
+    margin: 0;
+    padding: 0;
+}
+
+.balloon-step1 {
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    background: #ffff;
+}
+
+.balloon-step1 h1 {
+    color: #0FABBC;
+}
+
+.balloon-step1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+}
+
+.balloon-step1 p {
+    margin: 0;
+    padding: 0;
+}
+
+.balloon-step2 {
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    background: #ffff;
+}
+
+.balloon-step2:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+}
+
+.balloon-step2 h1 {
+    color: #0FABBC;
+}
+
+.balloon-step2 h2 {
+    color: #0FABBC;
+}
+
+.balloon-step2 p {
+    margin: 0;
+    padding: 0;
+}
+.balloon-step3 {
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    background: #ffff;
+}
+
+.balloon-step3 h1 {
+    color: #0FABBC;
+}
+
+.balloon-step3:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 55px solid transparent;
+    border-top: 35px solid #ffff;
+    color: #0FABBC;
+}
+
+.balloon-step3 p {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-red {
+    color: #FA163F;
+}
+/* about */
+
+/* stay */
+.stay {
+    background-color: #0FABBC;
+}
+
+.stay-title {
+    list-style-position: inside;     /* li要素の・を引き寄せる */
+}
+
+/* stay */
+
+/* space */
+.space {
+    background-color: #E4F9FF;
+    list-style-position: inside;  /* li要素の・を引き寄せる */
+}
+
+.space-font {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.space-title {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.space-title_logo {
+    height: 8rem;
+    width: 115%;
+}
+
+.space-photo img {
+    display: block;
+    width: 100%;
+}
+.space-right_logo {
+    margin-left: 20%;
+}
+/* space */
+
+/* access */
+.access {
+    background-color: #E4F9FF;
+}
+
+.access h2 {
+    color: #0FABBC;
+}
+
+.access-title {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
 
 
 
-    <!-- <div class="container">
-        <div class="space">
-            <h1 class="space-font font-blue font-weight-bold pt-5 pb-3">コワーキングスペース</h1>
-            <div class="space-title d-flex flex-row">
-                <div class="text-center mt-lg-3">
-                    <img src="img/HarborS-logo.png" alt="harbors" class="space-logo mt-lg-4 mb-lg-4 mt-sm-2 mb-sm-2">
-                    <p class="pb-lg-3 pb-sm-1">エンジニア向け<br>
-                        コワーキングスペース</p>
-                    <div class="space-harbors">
-                        <img src="img/HarborS.png" alt="HarborS">
-                    </div>
-                    <p class="pt-lx-5 pt-sm-3">表参道駅A4出口から徒歩3分</p>
-                </div>
-                <div class="">
-                    <div class="space-photo mr-lg-3 pt-sm-3 pr-sm-3 pb-sm-3">
-                        <img src="img/cafe.jpg" alt="cafe" class="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="space space-second">
-            <h1 class="space-font font-blue font-weight-bold pt-5 pb-3">講師のスキルアップ</h1>
-            <div class="space-title d-flex flex-row pb-3 pt-3 space-second_list">
-                <div class="text-left w-50">
-                    <h3 class="pl-3 text-left">プログラミング言語</h3>
-                    <ul class="space-title_logo text-left d-flex flex-column flex-wrap mr-lg-4 mr-sm-4">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>JaVa</li>
-                        <li>Python</li>
-                        <li>Ruby</li>
-                        <li>SQL</li>
-                    </ul>
-
-                </div>
-                <div class="w-50 ml-lg-5 ml-sm-5">
-                    <h3>インフラ</h3>
-                    <ul class="text-left">
-                        <li>ネットワーク</li>
-                        <li>Web/APサーバ</li>
-                        <li>データベース</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="#" class=" btn btn-lg active font-write pr-5 pl-5 mt-5 mb-5 font-weight-bold"
-                    role="button">話しを聞いてみたい</a>
-            </div>
-        </div>
-    </div> -->
-    
-
-    <div class="container">
-        <div class="space">
-            <h1 class="space-font font-blue font-weight-bold pt-5 pb-3">コワーキングスペース</h1>
-            <div class="space-title d-flex flex-row">
-                <div class="text-center mt-lg-3">
-                    <img src="img/HarborS-logo.png" alt="harbors" class="space-logo mt-lg-4 mb-lg-4 mt-sm-2 mb-sm-2">
-                    <p class="pb-lg-3 pb-sm-1">エンジニア向け<br>
-                        コワーキングスペース</p>
-                    <div class="space-harbors">
-                        <img src="img/HarborS.png" alt="HarborS">
-                    </div>
-                    <p class="pt-lx-5 pt-sm-3">表参道駅A4出口から徒歩3分</p>
-                </div>
-                <div class="">
-                    <div class="space-photo mr-lg-3 pt-sm-3 pr-sm-3 pb-sm-3">
-                        <img src="img/cafe.jpg" alt="cafe" class="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="space space-second">
-            <h1 class="space-font font-blue font-weight-bold pt-5 pb-3">講師のスキルアップ</h1>
-            <div class="space-title d-flex flex-row pb-3 pt-3 space-second_list">
-                <!-- <div class="text-left w-50"> -->
-                <div class="text-left">
-                    <h3 class="pl-3 text-left">プログラミング言語</h3>
-                    <ul class="space-title_logo text-left d-flex flex-column flex-wrap mr-lg-4 mr-sm-4">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
-                        <li>JaVa</li>
-                        <li>Python</li>
-                        <li>Ruby</li>
-                        <li>SQL</li>
-                    </ul>
-
-                </div>
-                <!-- <div class="w-50 ml-lg-5 ml-sm-5"> -->
-                <div class="ml-lg-5 ml-sm-5">
-                    <h3 class="pl-3">インフラ</h3>
-                    <ul class="text-left">
-                        <li>ネットワーク</li>
-                        <li>Web/APサーバ</li>
-                        <li>データベース</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="text-center">
-                <a href="#" class=" btn btn-lg active font-write pr-5 pl-5 mt-5 mb-5 font-weight-bold"
-                    role="button">話しを聞いてみたい</a>
-            </div>
-        </div>
-    </div>
 
 
+.balloon-step4 {
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    background: #ffff;
+}
 
-    <!-- space -->
+.balloon-step4 h1 {
+    color: #0FABBC;
+}
 
-    <!-- about -->
-    <div class="about">
-        <div class="container">
-            <div class="d-flex flex-column text-center">
-                <div class="row">
-                    <div class="col-12 mx-auto">
-                        <div class="balloon1">
-                            <h1 class="font-write font-weight-bold mb-0 pt-3 pb-3">
-                                利用開始までの流れ</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about -->
+.balloon-step4 p {
+    margin: 0;
+    padding: 0;
+}
 
+/* access */
 
-    <div class="bg pb-5 pt-5"></div>
+/* foot */
+.foot {
+    background-color: #E4F9FF;
+}
 
-
-    <div class="container">
-        <div class="d-flex flex-column text-center">
-            <div class="access">
-                <div class="access-title d-flex flex-row pb-3 pt-3">
-                    <div class="d-flex flex-row balloon-step1">
-                        <div class="w-50 mt-lg-2 mt-sm-2 mt-lg-4 mt-sm-4">
-                            <h2 class="font-weight-bold mt-lg-1 mt-md-2 ">
-                                STEP1</h2>
-                            <h1 class="font-write font-weight-bold mb-md-3">
-                                問い合わせ</h1>
-                        </div>
-                        <div class="w-75 mt-lg-3 mt-md-3 mt-sm-3 text-left mt-sm-4">
-                            <h4>「話を聞いてみたい」ボタンからお問い合わせください</h4>
-                            <h4>コワーキングスペース見学の日程調整させていただきます</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg pb-4 pt-4"></div>
-                <div class="access-title d-flex flex-row pb-3 pt-3">
-                    <div class="d-flex flex-row balloon-step2">
-                        <div class="w-50 mt-lg-3 mt-md-2 mt-sm-2">
-                            <h2 class="font-weight-bold mt-lg-4 mt-md-3 mt-sm-4">
-                                STEP2</h2>
-                            <h1 class="font-write font-weight-bold">
-                                見学に行く</h1>
-                        </div>
-                        <div class="w-75 mt-lg-3 mt-md-3 mt-sm-3 text-left">
-                            <h4 class="pb-2">コワーキングスペース見学や本サービスの詳細なご説明なご説明をさせていただきます</h4>
-                            <h4>メンターとお話しいただき、ご自身の勉強スタイルにあっているかご確認ください</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg pb-4 pt-4"></div>
-                <div class="access-title d-flex flex-row pb-3 pt-3 pb-3">
-                    <div class="d-flex flex-row balloon-step3">
-                        <div class="w-50 mt-lg-3 mt-md-3 mt-sm-3">
-                            <h2 class="font-weight-bold mt-1">
-                                STEP3</h2>
-                            <h1 class="font-write font-weight-bold">
-                                申し込み</h1>
-                        </div>
-                        <div class="w-75 mt-lg-4 mt-md-5 mt-sm-4 text-left">
-                            <h4>見学した内容を踏まえて、ご利用になる場合はお申し込みください</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg pb-4 pt-4"></div>
-                <div class="access-title d-flex flex-row pt-3">
-                    <div class="d-flex flex-row balloon-step4">
-                        <div class="w-50 mt-lg-3 mt-md-4 mt-sm-4">
-                            <h2 class="font-weight-bold mt-lg-5 mt-md-4">
-                                STEP4</h2>
-                            <h1 class="font-write font-weight-bold ">
-                                利用開始</h1>
-                        </div>
-                        <div class="w-75 mt-lg-3 mt-md-3 mt-sm-3 text-left">
-                            <h4 class="pb-2">平日18時〜24時の間、自由にコワーキングスペースをご利用できます</h4>
-                            <h4 class="pb-2">いつでも気軽に相談ができます</h4>
-                            <h4 class="pb-2">ンターが居る時間であればコワーキングスペースでご自由に質問ください</h4>
-                            <h4>それ以外にオンラインでも質問できます</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="#" class="btn btn-lg active font-write mt-5 mb-5 pr-5 pl-5 font-weight-bold"
-                        role="button">話しを聞いてみたい</a>
-                </div>
-            </div>
-
-            <div class="border-bottom bg"></div>
-            <div class="bg pb-4 pt-4"></div>
-
-            <div class="foot">
-                <div class="container">
-                    <div class="font-weight-bold pt-5 pb-3">
-                        <div class="foot-main d-flex flex-row pb-3 pt-3 ">
-                            <div class="text-left w-100">
-                                <img src="img/AP_name_logo.png" alt="アンチパターン" class="w-75 mb-4">
-                                <p class="h3">住所</p>
-                                <p class="h4 text-secondary">東京都港区青山3丁目15-9<br>
-                                    MINOWA表参道3F</p>
-                                <p class="h3">アクセス</p>
-                                <p class="h4 text-secondary">東京都メトロ銀座線、半蔵門線<br>
-                                    「表参道」下車 A4出口 徒歩3分</p>
-                                <p class="h3">電話番号</p>
-                                <p class="h4 text-secondary">03-6885-6140</p>
-
-                                <div class="btn-foot text-center mt-lg-4 mt-md-4 mt-sm-4">
-                                    <a href="#" class="d-flex flex-row btn-lg font-write font-weight-bold"
-                                        role="button">
-                                        <p class="text-center">HarborS for Beginnerに<br>
-                                            申し込む</p>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="iframe-wrap">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.524886907501!2d139.7069432156276!3d35.66407568019825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca0617a4dad%3A0x44b7d9d908ca5e29!2z44CSMTA3LTAwNjEg5p2x5Lqs6YO95riv5Yy65YyX6Z2S5bGx77yT5LiB55uu77yR77yV4oiS77yZ!5e0!3m2!1sja!2sjp!4v1584256213433!5m2!1sja!2sjp"
-                                    width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                                    aria-hidden="false" tabindex="0"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  .iframe-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+}
+ 
+.iframe-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
 
 
-        <footer>
-            <p class="pb-4 pt-4 mb-0 text-center">2019 Anti-Pattern inc.</p>
-        </footer>
+/* foot */
 
+/* footer */
+footer {
+    background-color: #0FABBC;
+    color: #E4F9FF;
+    margin: 0 calc(50% - 50vw);
+}
+/* footer */
+.space-logo {
+    width: 25%;
+}
 
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-        <!-- Code injected by live-server -->
-        <script type="text/javascript">
-            // <![CDATA[  <-- For SVG support
-            if ('WebSocket' in window) {
-                (function () {
-                    function refreshCSS() {
-                        var sheets = [].slice.call(document.getElementsByTagName("link"));
-                        var head = document.getElementsByTagName("head")[0];
-                        for (var i = 0; i < sheets.length; ++i) {
-                            var elem = sheets[i];
-                            var parent = elem.parentElement || head;
-                            parent.removeChild(elem);
-                            var rel = elem.rel;
-                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                            }
-                            parent.appendChild(elem);
-                        }
-                    }
-                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                    var address = protocol + window.location.host + window.location.pathname + '/ws';
-                    var socket = new WebSocket(address);
-                    socket.onmessage = function (msg) {
-                        if (msg.data == 'reload') window.location.reload();
-                        else if (msg.data == 'refreshcss') refreshCSS();
-                    };
-                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                        console.log('Live reload enabled.');
-                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                    }
-                })();
-            }
-            else {
-                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-            }
-	// ]]>
-        </script>
-</body>
-
-</html>
