@@ -1,11 +1,8 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	body {
-		/* background-color: chartreuse; */
-	/* } */
-	/* .btn {
-		width: 90%;
-	} */
+	background-color: chartreuse; 
+	}
 	.home-photo img {
 		width: 45%;
 	}
@@ -76,9 +73,6 @@
 		/* background: #ffff; */
 	}
 	
-	.balloon-step1 h1 {
-		/* color: #0FABBC; */
-	}
 	
 	.balloon-step1:before {
 		content: "";
@@ -119,9 +113,6 @@
 		/* color: #0FABBC; */
 	}
 	
-	.balloon-step2 h1,h2 {
-		/* color: #0FABBC; */
-	}
 	
 	.balloon-step2 p {
 		margin: 0;
