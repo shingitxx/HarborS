@@ -3,29 +3,42 @@
 	/* body {
 		background-color: violet;
 	} */
-
+	.btn-center {
+		font-size: 2rem;
+	}
+	.btn-header {
+		font-size: 1rem;
+	}
 	.header-photo {
 		width: 75%;
 		}
-		.navbar-brand {
+	.navbar-brand {
 			width: 360px;
-		}
-
+	}
 	.home-photo img {
 		width: 45%;
     }
     .home h1 {
-        font-size: 4rem;
+		font-size: 4rem;
 	}
-    .home p {
-        font-size: 1.9rem;
+	.home h1 span {
+		font-size: 2.1rem;
+	}
+	.home-text_logo{
+		font-size: 2rem;
 	}
     
 	
     .about h1 {
         font-size: 2.2rem;
-    }
+	}
+	.about-list li {
+		font-size: 2rem;
+	}
 
+	.stay-title li {
+		font-size: 2rem;
+	}
     .stay h1 {
         font-size: 3.3rem;
 	}
@@ -35,10 +48,16 @@
 	
     .access h4 {
         font-size: 1.1rem;
-    }
+	}
     .space h3 {
         font-size: 1.4rem;
-    }
+	}
+	.space h1 {
+		font-size: 2.2rem;
+	}
+	.space-title h2 {
+		font-size: 1.5rem;
+	}
 
 
 	.space-photo {
@@ -52,16 +71,30 @@
 	.space-harbors img {
 		width: 80%;
 	}
+	/* .space-second_list {
+		display: block !important;
+	} */
+
+
+	.foot {
+		text-align: center;
+	}
+
 	.foot-main p {
 		font-size: 1rem;
 	}
-	.btn-foot {
+	.iframe-wrap {
+		width: 50%;
+		height: 100%;
+		margin: auto;
+	}
+	/* .btn-foot {
         width: 67%;
         height: 17%;
     }
 	.btn-foot p {
         font-size: 1rem;
-	}
+	} */
 	
 
 }
