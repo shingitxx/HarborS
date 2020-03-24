@@ -14,11 +14,11 @@
             font-size: 1.5rem;
         }
         .btn-header {
-            font-size: 1rem;
-            width: 97%;
+            font-size: 0.7rem;
+            width: 100%;
         }
         .btn-header span {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
         .btn-footer {
             font-size: 1.5rem;
@@ -27,119 +27,122 @@
             width: 100%;
         }
         .header-photo {
-          width: 75%;
+          width: 100%;
           }
-            .home-photo img {
+          .navbar-brand {
+            width: 50%;
+        }
+        .home-photo img {
                 width: 49%;
             }
-            .home h1 {
+        .home h1 {
                 font-size: 1.8rem;
             }
-            .home h1 span {
+        .home h1 span {
                 font-size: 0.9rem;
             }
-            .home-text_logo{
+        .home-text_logo{
                 font-size: 1rem;
             }
-            .home h2 {
+        .home h2 {
                 font-size: 1.5rem;
             }
-            .home ul {
+        .home ul {
                 font-size: 1.3rem;
             }
-            .home p {
+        .home p {
                 font-size: 0.8rem;
             }
-            .about h1 {
+        .about h1 {
                 font-size: 1rem;
             }
-            .about-list li {
+        .about-list li {
                 font-size: 1rem;
             }
             
-            .stay-title h4 {
+        .stay-title h4 {
                 font-size: 2rem;
             }
-            .stay h1 {
+        .stay h1 {
                 font-size: 1.5rem;
             }
-            .stay-title h2 {
+        .stay-title h2 {
                 font-size: 1.3rem;
             }
     
-            .stay h3 {
+        .stay h3 {
                 font-size: 1.7rem;
             }
-            .stay-title li {
+        .stay-title li {
                 font-size: 1rem;
             }
-    
-            .space h1 {
+            
+        .space h1 {
                 font-size: 1rem;
             }
-            .space p {
+        .space p {
                 font-size: 0.7rem;
             }
-            .space-harbors img {
+        .space-harbors img {
                 width: 60%;
                 margin-bottom: 5%;
             }
-            .space-title h2 {
-                font-size: 0.7rem;
+        .space-title {
+            display: block !important;
+        }
+        .space-title h2 {
+                font-size: 1rem;
             }
-            .space-title h3 {
+        .space-title h3 {
                 font-size: 0.8rem;
             }
-            .space-title li {
+        .space-title li {
                 font-size: 0.5rem;
                 padding-right: 2%;
             }
-            .space-title_logo {
+        .space-title_logo {
                 height: 5rem
             }
-            .space-photo {
+        .space-photo {
                 height: 100%;
             }
-            .space-photo img {
+        .space-photo img {
                 height: 90%;
                 width: 90%;
                 padding-top: 10%;
             }
-            .space-logo {
+        .space-logo {
                 width: 45%;
                 padding: 10% 0;
             }
-            .space-logo img {
+        .space-logo img {
                 padding-top: 8%;
                 padding-bottom: 8%;
 			}
-			
-		
-          
-          .header-top {
+        .header-top {
               width: 100%;
           }
-          .btn-top {
+        .btn-top {
               width: 100%;
           }
-          .btn-top h3 {
+        .btn-top h3 {
               font-size: 0.8rem;
           }
-          .btn-top h5 {
+        .btn-top h5 {
               font-size: 0.5rem;
               width: 100%;
           }
-          .access h1 {
+        .access h1 {
               font-size: 1.2rem;
           }
-          .access h2 {
+        .access h2 {
             font-size: 1rem;
         }
         .access h4 {
             font-size: 0.5rem;
         }
         .access p {
-            font-size: 1rem;
+            font-size: 0.5rem;
         }
         .foot {
             text-align: center;
@@ -148,7 +151,7 @@
             font-size: 0.5rem;
 		}
 		.foot-main {
-			display: block !important;
+			/* display: block !important; */
 			/* text-align: center !important; */
 		}
 		.foot-main_logo {
@@ -179,11 +182,15 @@
             height: 100%;
             margin: auto;
         }
-        .space-second_list {
+        /* .space-second_list {
             display: block !important;
-        }
+        } */
+        .space-second_list {
+            width: 100%;
+            
+		}
         .space-second_list ul {
-            width: 60%;
+            width: 70%;
             font-size: 1rem;
 		}
 		.space-right_logo {
@@ -192,6 +199,7 @@
         .space-second_list li {
             font-size: 0.8rem;
         }
+
 
 
 
