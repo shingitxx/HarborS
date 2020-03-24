@@ -9,11 +9,14 @@
 	.btn-header {
 		font-size: 1rem;
 	}
+	.btn-header span {
+		font-size: 1.2rem;
+	}
 	.header-photo {
-		width: 75%;
-		}
+		width: 100%;
+	}
 	.navbar-brand {
-			width: 360px;
+			width: 50%;
 	}
 	.home-photo img {
 		width: 45%;
@@ -55,6 +58,9 @@
 	.space h1 {
 		font-size: 2.2rem;
 	}
+	.access p {
+        font-size: 1.2rem;
+	}
 	.space-title h2 {
 		font-size: 1.5rem;
 	}
@@ -69,11 +75,8 @@
 		height: 100%;
 	}
 	.space-harbors img {
-		width: 80%;
+		width: 60%;
 	}
-	/* .space-second_list {
-		display: block !important;
-	} */
 
 
 	.foot {
@@ -98,3 +101,5 @@
 	
 
 }
+
+
