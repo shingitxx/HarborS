@@ -85,6 +85,9 @@ color: #ffffff; /* 文字白色 */
     justify-content: center;
     text-align: left;
 }
+.home-text_logo ul {
+    margin-left: 23%;
+}
 .home h1 {
     font-size: 6rem;
 }
