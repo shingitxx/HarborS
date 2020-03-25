@@ -30,15 +30,12 @@
 	.home-text_logo{
 		font-size: 2rem;
 	}
-    
-	
     .about h1 {
         font-size: 2.2rem;
 	}
 	.about-list li {
 		font-size: 2rem;
 	}
-
 	.stay-title li {
 		font-size: 2rem;
 	}
@@ -48,7 +45,6 @@
 	.stay h3 {
         font-size: 3rem;
 	}
-	
     .access h4 {
         font-size: 1.1rem;
 	}
@@ -64,8 +60,6 @@
 	.space-title h2 {
 		font-size: 1.5rem;
 	}
-
-
 	.space-photo {
 		width: 100%;
 		height: 100%;
@@ -77,27 +71,12 @@
 	.space-harbors img {
 		width: 60%;
 	}
-
-
 	.foot {
 		text-align: center;
 	}
-
 	.foot-main p {
 		font-size: 1rem;
 	}
-	.iframe-wrap {
-		width: 50%;
-		height: 100%;
-		margin: auto;
-	}
-	/* .btn-foot {
-        width: 67%;
-        height: 17%;
-    }
-	.btn-foot p {
-        font-size: 1rem;
-	} */
-	
-
 }
+
+
