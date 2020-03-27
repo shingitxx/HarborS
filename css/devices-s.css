@@ -1,139 +1,156 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	.btn-center {
-		font-size: 1.5rem;
-	}
-	.btn-header {
-		font-size: 1rem;
-		width: 100%;
-	}
-	.btn-header span {
-		font-size: 1.5rem;
-	}
-	.btn-footer {
-		font-size: 1.5rem;
-	}
-	.collapse {
-        width: 60%;
-	}
-	.btn-top {
-		width: 100%;
-	}
-	.header-photo {
-		width: 100%;
-	}
-	.header-top {
-		width: 100%;
-	}
-	.navbar-brand {
-		width: 48%;
-	}
-	.space-photo {
-		width: 100%;
-		height: 100%;
-	}
-	.space-photo img {
-		height: 90%;
-	}
-	.space h1 {
-		font-size: 2rem;
-	}
-	.space p {
-		font-size: 1rem;
-	}
-	.collapse h3 {
-		font-size: 1rem;
-	}
-	.collapse h5 {
-		font-size: 1.2rem;
-	}
-	.home-photo img {
-		width: 45%;
-    }
-	.home h1 {
-		font-size: 3rem;
-	}
-	.home h1 span {
-		font-size: 1.5rem;
-	}
-	.home-text_logo{
-		font-size: 2rem;
-	}
-    .home h3 {
-        font-size: 1.4rem;
-	}
-	.about-list li {
-		font-size: 2rem;
-	}
-    .about h1 {
-        font-size: 2rem;
-	}
-	.about li {
-		font-size: 1.5rem;
-	}
 
-    .stay-title li {
-		font-size: 1.5rem;
-	}
-    .stay h1 {
-        font-size: 2.4rem;
-    }
-    .stay h2 {
-        font-size: 1.4rem;
-	}
-	.stay h3 {
-        font-size: 2.5rem;
-	}
-	.space-title {
-		display: block !important;
-	}
-    .space h3 {
-        font-size: 1.1rem;
-	}
-	.space-harbors img {
-		width: 60%;
-	}
-	.space-title h2 {
-		font-size: 1.5rem;
-	}
-	.space-title li {
-		font-size: 1rem;
-	}
-	.space-title_logo {
-		height: 8rem;
-		width: 75%;
-	}
-	.space-second_list {
-		width: 100%;
-		padding-left: 15%;
-	}
-	.space-right_logo {
-		width: 56%;
-		margin-right: 0 !important;
-		margin-left: 0 !important;
-	}
-	.access h4 {
-		font-size: 1rem;
-	}
-	.access h1 {
-		font-size: 1.75rem;
-	}
-	.access h2 {
-		font-size: 1.5rem;
-	}
-	.access p {
-		font-size: 0.8rem;
-	}
-	.foot-main p {
-		font-size: 0.8rem;
-	}
-	.foot {
-		text-align: center;
-	}
-	iframe {
-		width: 25rem;
-		height: 20rem;
-	}
-	
+.container {
+	padding-left: 0%;
+	padding-right: 0%;
+}
+.row {
+	padding: 0%;
+	margin: 0%;
+}
+.col {
+	padding: 0%;
+	margin: 0%;
+}
+.btn-center {
+	font-size: 1.5rem;
+}
+/* 共通css */
+
+
+/* header */
+.btn-header {
+	font-size: 1rem;
+	width: 100%;
+}
+.btn-header span {
+	font-size: 1.5rem;
+}
+.btn-top {
+	width: 100%;
+}
+.header-photo {
+	width: 100%;
+}
+.navbar-brand {
+	width: 48%;
+}
+/* header */
+
+
+/* space */
+.space-photo {
+	width: 100%;
+	height: 100%;
+}
+.space-photo img {
+	height: 90%;
+}
+.space h1 {
+	font-size: 2rem;
+}
+/* space */
+
+
+/* home */
+.home-photo img {
+	width: 45%;
+}
+.home-text_logo{
+	font-size: 2rem;
+}
+.home h1 {
+	font-size: 3rem;
+}
+.home h1 span {
+	font-size: 1.5rem;
+}
+/* home */
+
+
+/* about */
+.about h1 {
+	font-size: 2rem;
+}
+.about li {
+	font-size: 1.5rem;
+}
+/* about */
+
+
+/* stay */
+.stay-title li {
+	font-size: 1.5rem;
+}
+.stay h1 {
+	font-size: 2.4rem;
+}
+.stay h3 {
+	font-size: 25rem;
+}
+/* stay */
+
+
+/* space */
+.space-title {
+	display: block !important;
+}
+.space-title li {
+	font-size: 1.3rem;
+}
+.space-title_logo {
+	height: 8rem;
+	width: 75%;
+}
+.space-second_list {
+	width: 100%;
+	padding-left: 15%;
+}
+.space-right_logo {
+	width: 56%;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+.space-title h1 {
+	font-size: 2.3rem;
+}
+.space-second_list h2 {
+	font-size: 1.5rem;
+}
+.space h3 {
+	font-size: 1.1rem;
+}
+.space-title h3 {
+	font-size: 1.5rem;
+}
+/* space */
+
+
+/* access */
+.access h1 {
+	font-size: 1.75rem;
+}
+.access h2 {
+	font-size: 1.5rem;
+}
+.access p {
+	font-size: 1rem;
+}
+/* access */
+
+
+/* foot */
+.foot {
+	text-align: center;
+}
+.btn-footer {
+	font-size: 1.5rem;
+}
+.foot-main p {
+	font-size: 0.8rem;
+}
+/* foot */
+
 
 }
