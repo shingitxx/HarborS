@@ -1,64 +1,48 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	body {
-	/* background-color: chartreuse;  */
-	}
-	.btn-center {
-		font-size: 2rem;
-	}
-	.btn-header {
-		font-size: 1.3rem;
-	}
-	.btn-header span {
-		font-size: 1.5rem;
-	}
-	.home-photo img {
-		width: 45%;
-	}
-	.home h1 {
-		font-size: 5rem;
-	}
-	.home h1 span {
-		font-size: 2.5rem;
-	}
-	.home-text_logo {
-		font-size: 2.5rem;
-	}
-	.access p {
-		font-size: 1.5rem;
-	}
-	/* .stay-title ul {
-		font-size: 2rem;
-	} */
-	
 
 
-
-	.space-photo {
-		width: 100%;
-		height: 100%;
-	}
-	.space-photo img{
-		width: 100%;
-		height: 100%;
-	}
-	.space-harbors img {
-		width: 65%;
-	}
+.btn-center {
+	font-size: 2rem;
+}
+.btn-header {
+	font-size: 1.3rem;
+}
+.btn-header span {
+	font-size: 1.5rem;
+}
+/* ↑ 共通class ↑ */
 
 
-	/* .btn-foot {
-        width: 47%;
-        height: 15%;
-    }
-	.btn-foot p {
-        font-size: 1rem;
-	} */
-	
+/* home */
+.home-photo img {
+	width: 30%;
+}
+.home-text_logo {
+	font-size: 2.5rem;
+}
+.home h1 {
+	font-size: 5rem;
+}
+.home h1 span {
+	font-size: 2.5rem;
+}
+.access p {
+	font-size: 1.5rem;
+}
+/* home */
 
 
-	/* .space-title_logo_logo {
-		height: 10rem;
-	} */
+/* space */
+.space-photo {
+	width: 100%;
+	height: 100%;
+}
+.space-photo img{
+	width: 100%;
+	height: 100%;
+}
+/* space */
+
 
 }
